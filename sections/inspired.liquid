@@ -1,0 +1,98 @@
+
+<div class="inspired">
+  <img src="{{section.settings.bg | img_url: 'master'}}" alt="" class="desk-bg">
+  <div class="container">
+     
+    <div class="inspired__wrap">
+     
+      <div class="inspired-group">
+        <img src="{{section.settings.bg | img_url: 'master'}}" alt="" class="mobile-bg">
+        <div class="name">
+          <span>{{section.settings.name}}</span>
+        </div>
+        <div class="title h2">
+          <h2>
+            {{section.settings.title}}
+          </h2>
+        </div>
+      </div>
+      <div class="inspired-items">
+        {% for block in section.blocks %}
+          <div class="inspired-item">
+            <div class="inspired-item__wrap">
+              <div class="insperid-icon">
+                <img src="{{block.settings.img | img_url: '24x24'}}" alt="">
+              </div>
+              <div class="title">
+                <h5>
+                  {{block.settings.title}}
+                </h5>
+              </div>
+              <div class="small-text">
+                <p>
+                  {{block.settings.text}}
+                </p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Section inspired",
+     "settings": [
+        {
+               "type": "image_picker",
+               "id": "bg",
+               "label": "background img"
+        },
+       {
+            "type": "text",
+            "id": "name",
+            "label": "name",
+            "default" : "leda swiss"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default" : "Inspired by Nature, Backed by Science"
+        }
+
+      
+    ],
+    "blocks": [
+     {
+       "name": "item",
+       "type": "item",
+       "settings": [
+             {
+               "type": "image_picker",
+               "id": "img",
+               "label": "Image"
+             },
+             {
+               "type": "text",
+               "id": "title",
+               "label": "title"
+             },
+             {
+               "type": "text",
+               "id": "text",
+               "label": "subtitle"
+             }
+           ]
+         }
+    ],
+     "presets": [
+    {
+      "name": "Section inspired"
+    }
+  ]
+  }
+{% endschema %}

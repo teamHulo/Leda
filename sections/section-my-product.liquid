@@ -1,0 +1,82 @@
+<style>
+  .section-product .small-text p{
+    font-family: HarmoniaSansW01-Regular !important;
+    font-size: 14px  !important;
+    font-style: normal  !important;
+    font-weight: 400  !important;
+    line-height: 120%  !important;
+    letter-spacing: .196px  !important;
+}
+.section-product .small-text p span{
+    font-family: HarmoniaSansW01-Regular !important;
+    font-size: 14px  !important;
+    font-style: normal  !important;
+    font-weight: 400  !important;
+    line-height: 120%  !important;
+    letter-spacing: .196px  !important;
+}
+ .section-product .small-text{
+   font-family: HarmoniaSansW01-Regular !important;
+    font-size: 14px  !important;
+    font-style: normal  !important;
+    font-weight: 400  !important;
+    line-height: 120%  !important;
+    letter-spacing: .196px  !important;
+ } 
+</style>
+
+{% assign product = section.settings.product %}
+
+<div class="section-product">
+  <div class="container">
+    <div class="section-product__wrap">
+      <div class="product-image">
+        <img src="{{ product.featured_image | img_url: 'master'}}" />
+        {% assign best = product.metafields.custom.bestseller.value %}
+        {% if best == true%}
+          {% render 'bestseller-icon' %}
+        {% endif %}
+      </div>
+      <div class="product-info">
+        <div class="title">
+          <h2>
+            {{product.title}}
+          </h2>
+        </div>
+        <div class="small-text">
+          
+            {{product.description}}
+         
+        </div>
+        <div class="product-btn">
+          <a href="{{product.url}}" class="a-btn">{{section.settings.btn_name}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Section custon product",
+    "settings": [
+      {
+        "type":"product",
+        "id":"product",
+        "label":"product"
+      },
+       {
+        "type":"text",
+        "id":"btn_name",
+        "label":"name button"
+      }
+    ],
+     "presets": [
+      {
+        "name": "custon product"
+      }
+    ]
+  }
+{% endschema %}
+

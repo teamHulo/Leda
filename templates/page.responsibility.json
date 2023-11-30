@@ -1,0 +1,291 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "Natural hair care elevated by clinical research",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--secondary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "115e73ed-105f-4d4a-b982-596b9d9d8c42": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__115e73ed-105f-4d4a-b982-596b9d9d8c42-168803955202787aa1-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LEDA Swiss is conscientious about taking a sustainable approach in the production, packaging, and delivery of our products.<\/p><p>Our premium formulas are exclusively produced in Switzerland and meet worldwide quality standards. Nearly all elements of our packaging are recyclable.<\/p><p>LEDA Swiss  products are created with 98.5% ingredients of natural origins, selectively sourced where extraction processes adhere to sustainable methods. More than 70% of ingredients are certified organic.<\/p><p>Each vegan formula is free of synthetic substances and chemicals for the wellbeing of both our customers and the planet. Rigorous safety testing for allergens is conducted on humans.<\/p><p>Organic alpine plant extracts are cultivated at altitude in the Swiss Alps with traceability back to the field. Gently extracted to preserve the plant properties. Certified sustainable production methods meet ISO 14001 standards and Swiss organic standards.<\/p><p>We strictly adhere to Clean label standards that exclude toxins, sulfates and parabens.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__115e73ed-105f-4d4a-b982-596b9d9d8c42-168803955202787aa1-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "18adb776-cfab-4e64-b2d1-25754cd7e02a": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__18adb776-cfab-4e64-b2d1-25754cd7e02a-168803955202787aa1-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural and Organic Oils, Organic Swiss Plant Extracts and Bioactives",
+            "text_size": 7
+          }
+        },
+        "template--16123289796782__18adb776-cfab-4e64-b2d1-25754cd7e02a-168803955202787aa1-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At LEDA Swiss, we carefully select the oils with extremely nutrient–dense benefits for hair, as the basis of our formulas.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "37aa3cfa-7023-47b7-8065-8444da4ce9bf": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "INGREDIENTS OF NATURAL ORIGIN ▸",
+            "link_1": "shopify:\/\/pages\/ingredients",
+            "button_size_1": "btn--small",
+            "button_style_1": "btn-text-thick-line",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__18adb776-cfab-4e64-b2d1-25754cd7e02a-168803955202787aa1-1",
+        "template--16123289796782__18adb776-cfab-4e64-b2d1-25754cd7e02a-168803955202787aa1-2",
+        "37aa3cfa-7023-47b7-8065-8444da4ce9bf"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "d90347c4-56b7-4098-9387-aa3aeae098d2": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16123289796782__d90347c4-56b7-4098-9387-aa3aeae098d2-168804650361363c30-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Values",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__d90347c4-56b7-4098-9387-aa3aeae098d2-168804650361363c30-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wild-plants-with-swiss-alpine-scenery.webp",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--secondary",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4ee6360b-3977-46d2-bd64-2dbb5ad433a3": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__4ee6360b-3977-46d2-bd64-2dbb5ad433a3-1688117975b90e4521-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural power",
+            "text_size": 8
+          }
+        },
+        "template--16123289796782__4ee6360b-3977-46d2-bd64-2dbb5ad433a3-1688117975b90e4521-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✴︎ We are passionate about using only ingredients of natural origin.<\/p><p>✴︎ We develop highly–concentrated products for powerful results.<\/p><p>✴︎ We strictly adhere to Clean–label standards that exclude toxins, sulphates, parabens and other undesirable ingredients.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__4ee6360b-3977-46d2-bd64-2dbb5ad433a3-1688117975b90e4521-1",
+        "template--16123289796782__4ee6360b-3977-46d2-bd64-2dbb5ad433a3-1688117975b90e4521-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 32
+      }
+    },
+    "ca033035-4ac3-47bf-bc5a-02025227b1e0": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16126143594670__ca033035-4ac3-47bf-bc5a-02025227b1e0-1688479926a1a7b074-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainability",
+            "text_size": 8
+          }
+        },
+        "template--16126143594670__ca033035-4ac3-47bf-bc5a-02025227b1e0-1688479926a1a7b074-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✴︎ We make our products locally in Switzerland for high quality standards.<\/p><p>✴︎ We offer smaller formats to help reduce packaging waste.<\/p><p>✴︎ We aim to use recyclable packaging that meets environmental standards.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16126143594670__ca033035-4ac3-47bf-bc5a-02025227b1e0-1688479926a1a7b074-1",
+        "template--16126143594670__ca033035-4ac3-47bf-bc5a-02025227b1e0-1688479926a1a7b074-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d10d1132-9bf1-4d6d-a152-68248eb12186": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16126143594670__d10d1132-9bf1-4d6d-a152-68248eb12186-1688479926a1a7b074-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Everyday luxury",
+            "text_size": 8
+          }
+        },
+        "template--16126143594670__d10d1132-9bf1-4d6d-a152-68248eb12186-1688479926a1a7b074-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✴︎ We desire to bring a feeling of luxury and elegance to your every day.<\/p><p>✴︎ We expertly create the rich textures of our luxury products completely natural.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16126143594670__d10d1132-9bf1-4d6d-a152-68248eb12186-1688479926a1a7b074-1",
+        "template--16126143594670__d10d1132-9bf1-4d6d-a152-68248eb12186-1688479926a1a7b074-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "84f1c5ee-79db-42c2-bd33-594b7c718b57": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alpine-flower.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "df6e4156-7eca-4232-88ae-d30c00f30770": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16126143594670__df6e4156-7eca-4232-88ae-d30c00f30770-1688479926a1a7b074-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean–Label Standards",
+            "text_size": 8
+          }
+        },
+        "template--16126143594670__df6e4156-7eca-4232-88ae-d30c00f30770-1688479926a1a7b074-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We strictly adhere to Clean–label standards that exclude toxins, sulfates and parabens and other undesirable ingredients.<\/p><p>We are committed to formulating every single product to the highest standards.<\/p><p>⚘⚘⚘<\/p><p>No Parabens (methyl-, propyl- and others)<br\/>No Formaldehyde<br\/>No Pthalates (DBP, DEHP, DEP and others)<br\/>No Phenoxyethanol<br\/>No Sodium Lauryl Sulfate (SLS)<br\/>No Sodium Laureth Sulfate (SLES)<br\/>No Mineral Oil<br\/>No Silicones<br\/>No Polyethylene Glycol (PEG compounds)<br\/>No Genetically Modified Organism (GMO’s)<br\/>No Gluten<br\/>No Nanoparticles<br\/>No Animal Testing regarding EU 1223\/2009 regulation (Cruelty free)<br\/>No Animal–Derived ingredients (Vegan)<br\/>No Diethanolamine (DEA), Notriethanolamine (TEA), monoethanolamine (MEA)<br\/>No Ethylenediaminetetraacetic acid (EDTA)<br\/>No Methylisothiazolinone<br\/>No methylchloroisothiazolinone<br\/>No UV Chemical Filters<br\/>No Alumina and derivatives<br\/>No Insoluble Plastic Microbeads<br\/>No Alcohol Denat<br\/>RSPO-certification required for Palm-derived ingredients<br\/>No Cosmetic allergens<br\/>No Avobenzone, Benzophenone + derivatives, Oxybenzone, or Octinoxate<br\/>No Triclosan & Triclocarban<br\/>No Retinyl Palmitate<br\/>No Hydroquinone<br\/>No Talc<\/p>",
+            "text_size": 4,
+            "text_columns": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16126143594670__df6e4156-7eca-4232-88ae-d30c00f30770-1688479926a1a7b074-1",
+        "template--16126143594670__df6e4156-7eca-4232-88ae-d30c00f30770-1688479926a1a7b074-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "115e73ed-105f-4d4a-b982-596b9d9d8c42",
+    "18adb776-cfab-4e64-b2d1-25754cd7e02a",
+    "d90347c4-56b7-4098-9387-aa3aeae098d2",
+    "4ee6360b-3977-46d2-bd64-2dbb5ad433a3",
+    "ca033035-4ac3-47bf-bc5a-02025227b1e0",
+    "d10d1132-9bf1-4d6d-a152-68248eb12186",
+    "84f1c5ee-79db-42c2-bd33-594b7c718b57",
+    "df6e4156-7eca-4232-88ae-d30c00f30770"
+  ]
+}

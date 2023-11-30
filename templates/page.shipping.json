@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--secondary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "4eeb3589-717b-4f1d-b218-2e3fab18a14a": {
+      "type": "section-faq",
+      "blocks": {
+        "template--16126143561902__4eeb3589-717b-4f1d-b218-2e3fab18a14a-1688479260e940c6d2-0": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping",
+            "content": "<p>Shipping costs are calculated based on the country of destination. The costs for postage and packaging are shown at checkout after clicking on proceed to payment and before final payment. In principle, the goods are sent within 2-5 working days after payment of the order. If you wish to have the goods delivered to an address other than the customer’s, it is your responsibility to inform us of the desired delivery address.<\/p>"
+          }
+        },
+        "template--16126143561902__4eeb3589-717b-4f1d-b218-2e3fab18a14a-1688479260e940c6d2-1": {
+          "type": "text",
+          "settings": {
+            "title": "Returns & Refunds",
+            "content": "<p>We have a 7-day return policy, which means you have 7 days after receiving your item to request a return.<\/p><p>These are hygiene articles, therefore only unopened items can be returned in exceptional circumstances. The items must be unused, in excellent condition and returned in the original packaging.<\/p><p>Please state the exact reason for your refund request when contacting our customer service department.<\/p><p>We will evaluate your return request and inform you of any further steps to be taken. If you have any questions, please contact our customer service department by email, <a href=\"mailto:hello@ledaswiss.com\" title=\"mailto:hello@ledaswiss.com\">hello@ledaswiss.com<\/a>.<\/p>"
+          }
+        },
+        "template--16126143561902__4eeb3589-717b-4f1d-b218-2e3fab18a14a-1688479260e940c6d2-2": {
+          "type": "text",
+          "settings": {
+            "title": "Damages & Issues",
+            "content": "<p>Please inspect your order upon reception and contact us immediately if the item is defective, damaged or if you received the wrong item, so that we can evaluate the issue and resolve it.<\/p><p>Defective products must be reported in writing within 7 days of receipt. Otherwise the products are considered to have been formally accepted.<\/p>"
+          }
+        },
+        "7a33b929-a856-4963-a5ec-fff46f452a5a": {
+          "type": "text",
+          "settings": {
+            "title": "Refunds",
+            "content": "<p>We will notify you once we’ve received and inspected your return, and let you know if the refund was approved or not. If approved, you’ll be automatically refunded on your original payment method. Please remember it can take some time for your bank or credit card company to process and post the refund too.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16126143561902__4eeb3589-717b-4f1d-b218-2e3fab18a14a-1688479260e940c6d2-0",
+        "template--16126143561902__4eeb3589-717b-4f1d-b218-2e3fab18a14a-1688479260e940c6d2-1",
+        "template--16126143561902__4eeb3589-717b-4f1d-b218-2e3fab18a14a-1688479260e940c6d2-2",
+        "7a33b929-a856-4963-a5ec-fff46f452a5a"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4eeb3589-717b-4f1d-b218-2e3fab18a14a"
+  ]
+}

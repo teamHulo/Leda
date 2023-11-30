@@ -1,0 +1,86 @@
+<div class="client-stores">
+      <div class="container">
+        <div class="client-stores__wrap">
+          <div class="subtitle-2">
+            <p>
+              {{section.settings.name}}
+            </p>
+          </div>
+          <div class="title">
+            <h3>
+              {{ section.settings.title}}
+            </h3>
+          </div>
+           <div class="list-item">
+          
+          {% for block in section.blocks %}
+            
+            {% render 'card-client',
+              img: block.settings.img  ,
+              rating: block.settings.rating,
+              text:block.settings.text,
+              author: block.settings.name
+            %}
+          {% endfor %}
+        </div>
+        </div>
+       
+      </div>
+</div>
+
+
+{% schema %}
+    {
+      "name": "section-client-store",
+      "settings": [
+         {
+          "type": "text",
+          "id": "name",
+          "label": "name"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title"
+        }
+      ],
+      "blocks": [
+        {
+          "name": "item",
+          "type": "item",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "img",
+              "label": "image"
+            },
+            {
+              "type": "range",
+              "id": "rating",
+              "min": 1,
+              "max": 5,
+              "step": 1,
+              
+              "label": "rating",
+              "default": 5
+            },
+            {
+              "type": "text",
+              "id": "text",
+              "label": "text"
+            },
+            {
+              "type": "text",
+              "id": "name",
+              "label": "author"
+            }         
+          ]
+        }
+      ],
+      "presets": [
+        {   
+          "name": "section-client-store"
+        }
+      ]
+    }
+  {% endschema %}

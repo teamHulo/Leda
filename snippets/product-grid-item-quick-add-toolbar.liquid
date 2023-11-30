@@ -1,0 +1,93 @@
+<!-- /snippets/product-grid-item-quick-add-menu.liquid -->
+
+{% comment %}
+  Quick add menu for a product
+{% endcomment %}
+
+{% liquid
+  comment
+    Display inline buttons in a compact format if the buttons
+    have a lot of characters or options
+  endcomment
+  assign display_compact = true
+  if inline_variant_buttons
+    assign all_characters = inline_variant_buttons.values | join: ""
+    if all_characters.size > 30 and inline_variant_buttons.values.size > 5
+      assign display_compact = true
+    elsif inline_variant_buttons.values.size > 10
+      assign display_compact = true
+    endif
+  endif
+%}
+
+<div
+  :id="$id('quick-add-menu-toolbar')"
+  role="toolbar"
+  @keydown.right.prevent.stop="$focus.wrap().next()"
+  @keydown.left.prevent.stop="$focus.wrap().prev()"
+  class="
+    flex flex-row items-center flex-wrap justify-center
+    gap-x-1 gap-y-0
+  "
+>
+  {% assign variant_position_index0 = inline_variant_buttons.position | minus: 1 %}
+  {%- for quick_variant in inline_variants -%}
+    {% liquid
+      assign option_name = quick_variant.options[variant_position_index0]
+      assign sold_out = false
+      if quick_variant.available != true
+        assign sold_out = true
+      endif
+    %}
+    {% capture option_button %}
+      <button
+        data-add-to-cart
+        name="add"
+        class="
+          group/option-button
+          whitespace-nowrap typography-accent text-a2
+          h-8 px-2 py-2
+          md:h-7 md:px-1 md:py-1
+        "
+        :class="{
+          'has-success': isSuccess,
+          'loading': isLoading
+        }"
+        :disabled="{{sold_out}} || isDisabled"
+        :aria-busy="isLoading"
+        {% if sold_out %}
+          disabled="disabled"
+          title="{{ 'products.product.add_x_to_cart' | t: name: option_name  }} - {{ 'products.product.sold_out' | t }}"
+          aria-label="{{ 'products.product.add_x_to_cart' | t: name: option_name  }} - {{ 'products.product.sold_out' | t }}"
+        {% else %}
+          title="{{ 'products.product.add_x_to_cart' | t: name: option_name  }}"
+          aria-label="{{ 'products.product.add_x_to_cart' | t: name: option_name  }}"
+        {% endif %}
+      >
+        <span class="
+          btn-state-ready
+          inline-block whitespace-nowrap rounded-[calc(min(2px, var(--radius)))]
+          text-button-contrast
+          px-2 py-1
+
+          {% if sold_out %}
+            opacity-70 line-through
+          {% else %}
+            group-hover/option-button:text-button-contrast
+            group-hover/option-button:bg-button-contrast/5
+          {% endif %}
+        ">
+          {{ option_name }}
+        </span>
+        <span class="btn-state-loading">
+          <svg height="18" width="18" class="svg-loader" style="--border: rgb(var(--rgb-button-contrast) / 50%); --text: rgb(var(--rgb-button-contrast));">
+            <circle r="7" cx="9" cy="9" />
+            <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+          </svg>
+        </span>
+        <span class="btn-state-complete" style="--primary: rgb(var(--rgb-button-contrast));">&nbsp;</span>
+      </button>
+    {% endcapture %}
+    {% render 'product-add-button-form', variant: quick_variant, selling_plan: simple_selling_plan, button: option_button %}
+  {%- endfor -%}
+</div>

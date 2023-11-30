@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "Natural hair care elevated by clinical research",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--primary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "115e73ed-105f-4d4a-b982-596b9d9d8c42": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__115e73ed-105f-4d4a-b982-596b9d9d8c42-168803955202787aa1-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "LEDA Swiss elevates the performance of natural hair care",
+            "text_size": 9
+          }
+        },
+        "template--16123289796782__115e73ed-105f-4d4a-b982-596b9d9d8c42-168803955202787aa1-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__115e73ed-105f-4d4a-b982-596b9d9d8c42-168803955202787aa1-1",
+        "template--16123289796782__115e73ed-105f-4d4a-b982-596b9d9d8c42-168803955202787aa1-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "18adb776-cfab-4e64-b2d1-25754cd7e02a": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__18adb776-cfab-4e64-b2d1-25754cd7e02a-168803955202787aa1-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hair Wellness",
+            "text_size": 8
+          }
+        },
+        "template--16123289796782__18adb776-cfab-4e64-b2d1-25754cd7e02a-168803955202787aa1-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We develop plant based hair care for the results that you desire. Rigorous clinical research for high quality and performance. The health of your hair for the long term is our priority.<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__18adb776-cfab-4e64-b2d1-25754cd7e02a-168803955202787aa1-1",
+        "template--16123289796782__18adb776-cfab-4e64-b2d1-25754cd7e02a-168803955202787aa1-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "30466df3-af61-411f-b96d-a9c7e3ba8242": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__30466df3-af61-411f-b96d-a9c7e3ba8242-1688045515b8e3801b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural Plant Power",
+            "text_size": 8
+          }
+        },
+        "template--16123289796782__30466df3-af61-411f-b96d-a9c7e3ba8242-1688045515b8e3801b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LEDA Swiss hair care products are rich in nutrients with 98% ingredients of natural origins. No artificial colours, parabens, silicon, petrochemicals or other substances.<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__30466df3-af61-411f-b96d-a9c7e3ba8242-1688045515b8e3801b-1",
+        "template--16123289796782__30466df3-af61-411f-b96d-a9c7e3ba8242-1688045515b8e3801b-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "e5340060-f622-4d15-a5b5-a9cd9e36c41d": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__e5340060-f622-4d15-a5b5-a9cd9e36c41d-1688045515b8e3801b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clinical Research",
+            "text_size": 8
+          }
+        },
+        "template--16123289796782__e5340060-f622-4d15-a5b5-a9cd9e36c41d-1688045515b8e3801b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our journey from passion to finished product has taken years of dedicated research. Our innovative formulas are custom crafted and luxurious in texture.<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__e5340060-f622-4d15-a5b5-a9cd9e36c41d-1688045515b8e3801b-1",
+        "template--16123289796782__e5340060-f622-4d15-a5b5-a9cd9e36c41d-1688045515b8e3801b-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "314761bd-7a09-4f20-87f1-0086f7065959": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__314761bd-7a09-4f20-87f1-0086f7065959-1688045515b8e3801b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made in Switzerland",
+            "text_size": 8
+          }
+        },
+        "template--16123289796782__314761bd-7a09-4f20-87f1-0086f7065959-1688045515b8e3801b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each product is researched, formulated and developed with the expertise of cosmetic chemists in Switzerland. Rigorous testing is applied to our range.<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        },
+        "d89034a5-072e-4b0f-843d-528313a95525": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Raise the bar of your hair care, naturally!<\/strong><\/p>",
+            "text_size": 7,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__314761bd-7a09-4f20-87f1-0086f7065959-1688045515b8e3801b-1",
+        "template--16123289796782__314761bd-7a09-4f20-87f1-0086f7065959-1688045515b8e3801b-2",
+        "d89034a5-072e-4b0f-843d-528313a95525"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d90347c4-56b7-4098-9387-aa3aeae098d2": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16123289796782__d90347c4-56b7-4098-9387-aa3aeae098d2-168804650361363c30-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "SCIENTIFIC INNOVATION & POWER OF NATURE",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "template--16123289796782__d90347c4-56b7-4098-9387-aa3aeae098d2-168804650361363c30-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Natural Hair Care Elevated by Clinical Research",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__d90347c4-56b7-4098-9387-aa3aeae098d2-168804650361363c30-0",
+        "template--16123289796782__d90347c4-56b7-4098-9387-aa3aeae098d2-168804650361363c30-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/natural-hair-care-elevated-clinical-research.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/natural-hair-care-elevated-clinical-research-mobile.jpg",
+        "height": "use_image",
+        "overlay_opacity": 10,
+        "overlay_color": "#000",
+        "enable_overlay_text": true,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--neutral",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "115e73ed-105f-4d4a-b982-596b9d9d8c42",
+    "18adb776-cfab-4e64-b2d1-25754cd7e02a",
+    "30466df3-af61-411f-b96d-a9c7e3ba8242",
+    "e5340060-f622-4d15-a5b5-a9cd9e36c41d",
+    "314761bd-7a09-4f20-87f1-0086f7065959",
+    "d90347c4-56b7-4098-9387-aa3aeae098d2"
+  ]
+}

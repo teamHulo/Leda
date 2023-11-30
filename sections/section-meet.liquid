@@ -1,0 +1,84 @@
+<style>
+  #shopify-section-{{ section.id }} .section-meet {
+    background: {{ section.settings.bg_color }};
+  }
+  #shopify-section-{{ section.id }} .meet-info .title h2, #shopify-section-{{ section.id }} .meet-info .small-text p {
+    color: {{ section.settings.color }};
+  }
+</style>
+<div class="section-meet">
+  <div class="container">
+    <div class="section-meet__wrap">
+    
+      <div class="meet-info">
+        <div class="title">
+          <h2>
+            {{section.settings.title}}
+          </h2>
+        </div>
+        <div class="small-text">
+          {{section.settings.text}}
+        </div>
+        {% if section.settings.btn_name != blank%}
+          <div class="meet-btn">
+            <a href="{{section.settings.url}}" class="a-btn">{{section.settings.btn_name}}</a>
+          </div>
+        {% endif %}
+      </div>
+        <div class="meet-image">
+        <img src="{{section.settings.img | img_url: 'master'}}" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Section meet",
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text colot",
+        "default": "#000000"
+      },
+       {
+          "type":"image_picker",
+          "id":"img",
+          "label":"image"
+       },
+       {
+        "type":"text",
+        "id":"title",
+        "label":"title"
+      },
+      {
+        "type":"richtext",
+        "id":"text",
+        "label":"text"
+      },
+      {
+        "type":"url",
+        "id":"url",
+        "label":"url button"
+      },
+       {
+        "type":"text",
+        "id":"btn_name",
+        "label":"name button"
+      }
+    ],
+     "presets": [
+      {
+        "name": "Section meet"
+      }
+    ]
+  }
+{% endschema %}

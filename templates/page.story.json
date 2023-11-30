@@ -1,0 +1,314 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--primary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "ebf2a4ae-46b2-4e8b-b7eb-e5bf0fac8cb0": {
+      "type": "my-hero",
+      "settings": {
+        "img_bg": "shopify:\/\/shop_images\/story_bg_1_1.webp",
+        "name": "COSMETICS FROM ANOTHER ERA",
+        "title": "Our Story",
+        "text": "",
+        "text_2": "",
+        "url": "shopify:\/\/collections\/all",
+        "btn_name": "SHOP now"
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-2-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Meet Our Founder, Sarah-Jane Bayliss",
+            "text": "<p>Childhood memories of cosmetics from another era kindled my passion. Thick waxy lipsticks, rich creams in pots and heavy scents in glass jars decorated my mothers dressing table. The pictures of glamour and elegance that she created has been my inspiration.<\/p><p>Still in childhood, my joy was mixing soil, grass and chalk from the garden, bargaining with my big brother to be the reluctant tester of these early concoctions!<\/p><p>Later in life, I suffered from skin allergies due to conventional hair and skin products. With the desire for healthy, strong and shiny hair, I created my own products from natural ingredients without harmful substances. The results were very successful.<\/p><p>It was time to clinically advance my formulas to professional and premium standards. With the encouragement of my sister and others, all convinced by the renewed health of my hair.<\/p><p>I sought out leading cosmetic chemists in Switzerland, who collaborate with the world's largest beauty brands to develop my vision for pioneering natural hair care. Over many years, applying their expertise with advanced techniques, our unique products were created.<\/p><p>The luxury of LEDA Swiss was born.<\/p><p>Sarah–Jane<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        },
+        "047d3741-1a2c-4fdc-bbd4-2ab3166bfa7c": {
+          "type": "image2",
+          "settings": {
+            "img2": "shopify:\/\/shop_images\/sarah-jane.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-2-0",
+        "047d3741-1a2c-4fdc-bbd4-2ab3166bfa7c"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "37788761-3283-45b0-83b8-1275175d4c9c": {
+      "type": "my-hero",
+      "custom_css": [
+        ".my-banner-btn {display: none;}",
+        ".name span,h1 {color: #fbbc41;}"
+      ],
+      "settings": {
+        "img_bg": "shopify:\/\/shop_images\/Frame_215.png",
+        "name": "COSMETICS FROM ANOTHER ERA",
+        "title": "Our Hair Is The Storyline Of Our Lives",
+        "text": "",
+        "text_2": "",
+        "url": "",
+        "btn_name": ""
+      }
+    },
+    "d4f71fad-6543-4760-9ec8-4c5ae57957f7": {
+      "type": "section-square",
+      "blocks": {
+        "ae7155e3-141c-4050-9663-7cbf8414c3fb": {
+          "type": "text",
+          "settings": {
+            "max_width": 1000,
+            "padding": 0,
+            "padding_left": 0,
+            "padding_right": 150,
+            "item_bg_color": "rgba(0,0,0,0)",
+            "item_text_color": "#00463f",
+            "title": "From Another Era",
+            "richtext": "<p>The story begins in England in the 1970s with Jane, the mother of Sarah-Jane. Passionate about singing, opera and acting, Jane's elegance inspires her daughter's passion for cosmetics.<\/p>",
+            "image_mob": "shopify:\/\/shop_images\/jane-in-orpheus_ada190ad-9652-4c94-a3a6-5ec6bf340ba6.jpg",
+            "line_title": "1970"
+          }
+        },
+        "427519b9-2763-4a0e-ac70-e9a07c643be0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jane-in-orpheus_ada190ad-9652-4c94-a3a6-5ec6bf340ba6.jpg",
+            "padding": 0,
+            "padding_left": 76,
+            "padding_right": 0,
+            "line_title": "1970",
+            "right_timeline": false
+          }
+        },
+        "9035aeb2-c51c-4b37-b46c-76f2048db60f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_81.jpg",
+            "padding": 0,
+            "padding_left": 0,
+            "padding_right": 76,
+            "line_title": "TRIALS BEGIN",
+            "right_timeline": true
+          }
+        },
+        "f6ec7b63-52c4-4ec1-861d-844e2aa7665d": {
+          "type": "text",
+          "settings": {
+            "max_width": 1000,
+            "padding": 0,
+            "padding_left": 150,
+            "padding_right": 0,
+            "item_bg_color": "",
+            "item_text_color": "",
+            "title": "Later Years",
+            "richtext": "<p>Suffering from allergic reactions to skin and hair care products, Sarah–Jane started to create her own formulas with natural ingredients. Followed by years of trial and testing.<\/p>",
+            "image_mob": "shopify:\/\/shop_images\/Rectangle_81.jpg",
+            "line_title": "TRIAL Begin"
+          }
+        },
+        "958396e1-7844-4936-b161-a98bc72e521c": {
+          "type": "text",
+          "settings": {
+            "max_width": 1000,
+            "padding": 0,
+            "padding_left": 0,
+            "padding_right": 150,
+            "item_bg_color": "",
+            "item_text_color": "",
+            "title": "Passion Becomes Reality",
+            "richtext": "<p>Passionate about revolutionising plant-based hair care, the vision of LEDA Swiss was born. Scientific innovation, nature, luxury, and Switzerland continuously inspire the brand.<\/p>",
+            "image_mob": "shopify:\/\/shop_images\/Rectangle_83.jpg",
+            "line_title": "2019"
+          }
+        },
+        "22818ba7-3763-4cd6-a65e-c3238c71a8bc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_83.jpg",
+            "padding": 0,
+            "padding_left": 76,
+            "padding_right": 0,
+            "line_title": "2019",
+            "right_timeline": false
+          }
+        },
+        "ede5736d-8ffd-4b04-adc1-2ecc1c7f9cb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_84.jpg",
+            "padding": 0,
+            "padding_left": 0,
+            "padding_right": 76,
+            "line_title": "2020",
+            "right_timeline": true
+          }
+        },
+        "fa631295-5072-4b5a-a594-05ffd317d467": {
+          "type": "text",
+          "settings": {
+            "max_width": 1000,
+            "padding": 0,
+            "padding_left": 150,
+            "padding_right": 0,
+            "item_bg_color": "",
+            "item_text_color": "",
+            "title": "Scientific Innovation",
+            "richtext": "<p>Clinical research is launched in Switzerland with world specialists in cosmetics. Scientific expertise combined with natural ingredients create pioneering vegan hair care formulas. Visible and positive results experienced after the use of LEDA Swiss products.<\/p>",
+            "image_mob": "shopify:\/\/shop_images\/Rectangle_84.jpg",
+            "line_title": "2020"
+          }
+        },
+        "f55a763c-2067-49ae-a63d-e8c7f3e49448": {
+          "type": "text",
+          "settings": {
+            "max_width": 1000,
+            "padding": 0,
+            "padding_left": 0,
+            "padding_right": 150,
+            "item_bg_color": "",
+            "item_text_color": "",
+            "title": "LEDA Swiss",
+            "richtext": "<p>Rich in vitamins, amino acids, minerals, and antioxidants to nourish hair and scalp. An exclusive complex of bioactives, vegan keratin, and Swiss alpine extracts provides additional user benefits. A luxury range of revolutionary hair care products is launched.<\/p>",
+            "image_mob": "shopify:\/\/shop_images\/Rectangle_87_f5bcefcc-7200-4387-a5e5-5d633f6384e7.jpg",
+            "line_title": "present"
+          }
+        },
+        "c1c80165-5328-49eb-8fbe-2bc49e95b4f1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_87.jpg",
+            "padding": 0,
+            "padding_left": 76,
+            "padding_right": 0,
+            "line_title": "present",
+            "right_timeline": false
+          }
+        }
+      },
+      "block_order": [
+        "ae7155e3-141c-4050-9663-7cbf8414c3fb",
+        "427519b9-2763-4a0e-ac70-e9a07c643be0",
+        "9035aeb2-c51c-4b37-b46c-76f2048db60f",
+        "f6ec7b63-52c4-4ec1-861d-844e2aa7665d",
+        "958396e1-7844-4936-b161-a98bc72e521c",
+        "22818ba7-3763-4cd6-a65e-c3238c71a8bc",
+        "ede5736d-8ffd-4b04-adc1-2ecc1c7f9cb9",
+        "fa631295-5072-4b5a-a594-05ffd317d467",
+        "f55a763c-2067-49ae-a63d-e8c7f3e49448",
+        "c1c80165-5328-49eb-8fbe-2bc49e95b4f1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "bg_color": "",
+        "timeline": true,
+        "max_width": 1200,
+        "padding_top": 94,
+        "padding_bottom": 90
+      }
+    },
+    "a81ca5ad-2d3c-4198-9b37-59b8b92102c9": {
+      "type": "mysection-icons",
+      "blocks": {
+        "03efe03d-df04-40c6-beb3-0bcc736cf9da": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_5.png",
+            "text": "98% Ingredients of Natural Origin"
+          }
+        },
+        "17d45841-a291-46a2-bd25-251958d0853a": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_6.png",
+            "text": "organic swiss plant extract"
+          }
+        },
+        "dd986cae-70d5-4a11-8cd6-7fc3f4b9bbf4": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_7.png",
+            "text": "independently safety tested"
+          }
+        },
+        "c1c7dbd1-2205-475a-85b5-f679708ce0ec": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_8.png",
+            "text": "cruelty free"
+          }
+        },
+        "d088e413-7cc5-404f-8d2f-e819329346cc": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/OBJECTS_1.png",
+            "text": "vegan"
+          }
+        },
+        "b5794171-ba65-4b9e-8e39-3b2c4c863d11": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Group_19_1.png",
+            "text": "made in switzerland"
+          }
+        }
+      },
+      "block_order": [
+        "03efe03d-df04-40c6-beb3-0bcc736cf9da",
+        "17d45841-a291-46a2-bd25-251958d0853a",
+        "dd986cae-70d5-4a11-8cd6-7fc3f4b9bbf4",
+        "c1c7dbd1-2205-475a-85b5-f679708ce0ec",
+        "d088e413-7cc5-404f-8d2f-e819329346cc",
+        "b5794171-ba65-4b9e-8e39-3b2c4c863d11"
+      ],
+      "settings": {
+        "bg_color": "#fbbc41",
+        "text_color": "#00463f"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ebf2a4ae-46b2-4e8b-b7eb-e5bf0fac8cb0",
+    "custom-content-2",
+    "37788761-3283-45b0-83b8-1275175d4c9c",
+    "d4f71fad-6543-4760-9ec8-4c5ae57957f7",
+    "a81ca5ad-2d3c-4198-9b37-59b8b92102c9"
+  ]
+}

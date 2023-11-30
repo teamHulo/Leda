@@ -1,0 +1,91 @@
+{% style %}
+  .section-bestandtail-{{ section.id }}{
+    padding-bottom:{{section.settings.pb}}px;
+  }
+{% endstyle  %}
+
+<div class="section-bestandtail section-bestandtail-{{ section.id }}">
+      <div class="container">
+        <div class="section-bestandtail__wrap">
+          <div class="left">
+            <div class="left__wrap">
+              <div class="subtitle-2">
+                <p>
+                  {{section.settings.name}}
+                </p>
+              </div>
+              <div class="list-text">
+                {% for block in section.blocks %}
+                  <div class="title">
+                    <h2>
+                      {{block.settings.title}}
+                    </h2>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right__wrap">
+              <div class="image">
+                <div class="image__wrap">
+                  <video  autoplay loop muted playsinline>
+                                        <source src="{{section.settings.video_url}}" type="video/mp4">
+                                        Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% schema %}
+    {
+      "name": "section-bestandtail",
+      "settings": [
+        {
+          "type": "range",
+          "id": "pb",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "padding-bottom",
+          "default": 0
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "name",
+          "default":"Jeder Bestandteil in unseren LEDA Swiss Produkten ist sorgfältig ausgewählt."
+        },
+         {
+          "type": "text",
+          "id": "video_url",
+          "label": "video url"
+         
+        }
+      ],
+      "blocks": [
+        {
+          "name": "item",
+          "type": "item",
+          "settings": [
+           {
+              "type": "text",
+              "id": "title",
+              "label": "title",
+              "default":"Anders als viele Haarpflegeprodukte verzichten wir auf Wasser und Alkohol als Füllstoffe."
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {   
+          "name": "section-bestandtail"
+        }
+      ]
+    }
+  {% endschema %}

@@ -1,0 +1,152 @@
+<div class="section-haarpflege">
+      <div class="container">
+        <div class="section-haarpflege__body">
+          <div class="title bord">
+            <h2>
+              {{section.settings.title}}
+            </h2>
+          </div>
+          {% if section.settings.subtitle != blank %}
+            <div class="text-1">
+              <p>
+                {{section.settings.subtitle}}
+              </p>
+            </div>
+          {%  endif %}
+          <div class="section-haarpflege__wrap">
+            <div class="left">
+              <div class="left__wrap">
+                <div class="item-list">
+                   {% for block in section.blocks%}
+                     {% case block.type %}
+                      {% when 'left' %}
+                        <div class="item">
+                          <div class="item__wrap">
+                              <div class="title">
+                                <h4>
+                                  {{block.settings.title}}
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                    {% endcase %}
+                    {% comment %}{% if block.settings.alignment == 'left'%}
+                      <div class="item">
+                        <div class="item__wrap">
+                            <div class="title">
+                              <h4>
+                                {{block.settings.title}}
+                              </h4>
+                            </div>
+                        </div>
+                      </div>
+                    {% endif %} {% endcomment %}
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="middle__wrap">
+                  <div class="image">
+                    <div class="image__wrap">
+                      <img src="{{section.settings.img | img_url: 'master' }}" alt="" width="" height="">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="right__wrap">
+                <div class="item-list">
+                  {% for block in section.blocks%}
+                    {% case block.type %}
+                      {% when 'right' %}
+                        <div class="item">
+                          <div class="item__wrap">
+                              <div class="title">
+                                <h4>
+                                  {{block.settings.title}}
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                    {% endcase %}
+                    {% comment %}{% if block.settings.alignment == 'right'%}
+                      <div class="item">
+                        <div class="item__wrap">
+                            <div class="title">
+                              <h4>
+                                {{block.settings.title}}
+                              </h4>
+                            </div>
+                        </div>
+                      </div>
+                    {% endif %} {% endcomment %}
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+{% schema %}
+    {
+      "name": "section-haarpflege",
+      "settings": [
+
+             {
+              "type": "text",
+              "id": "title",
+              "label": "title",
+              "default":"Natürliche Haarpflege mit sichtbarer Wirkung."
+            },
+            {
+              "type": "text",
+              "id": "subtitle",
+              "label": "subtitle",
+              "default":"Alle Produkte sind frei von Silikonen, Toxinen, Sulfaten, Parabenen und anderen schädlichen Substanzen."
+            },
+            {
+              "type": "image_picker",
+              "id": "img",
+              "label": "image"
+            }
+      ],
+      "blocks": [
+        {
+          "name": "left",
+          "type": "left",
+          "limit": 4,
+          "settings": [
+           {
+              "type": "text",
+              "id": "title",
+              "label": "title",
+              "default":"Strahlend gesundes Aussehen"
+            }
+          ]
+        },
+         {
+          "name": "right",
+          "type": "right",
+          "limit": 4,
+          "settings": [
+           {
+              "type": "text",
+              "id": "title",
+              "label": "title",
+              "default":"Strahlend gesundes Aussehen"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {   
+          "name": "section-haarpflege"
+        }
+      ]
+    }
+  {% endschema %}

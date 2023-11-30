@@ -1,0 +1,91 @@
+<div class="key-ingredients">
+  <div class="container">
+    <div class="key-ingredients__wrap">
+      <div class="name">
+        <span>
+          {{ section.settings.name }}
+        </span>
+      </div>
+      <div class="key-ingredients-items">
+        {%for block in section.blocks%}
+          <div class="key-ingredients-item">
+            <div class="key-ingredients-item__wrap">
+              <div class="key-ingredients-item-img">
+                <img src="{{block.settings.img | img_url : 'master'}}" alt="">
+              </div>
+              <div class="key-ingredients-item-content">
+                <div class="title">
+                  <h5>
+                    {{block.settings.item_title}}
+                  </h5>
+                </div>
+                <div class="small-text">
+                  <p>
+                    {{block.settings.text}}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="key-ingredients-btn">
+        <a href="{{section.settings.url}}" class="a-btn">{{section.settings.btn_name}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Section key ingredients",
+     "settings": [
+        {
+            "type": "text",
+            "id": "name",
+            "label": "name"
+        },
+        {
+            "type": "url",
+            "id": "url",
+            "label": "url btn"
+        },
+        {
+            "type": "text",
+            "id": "btn_name",
+            "label": "btn name"
+        }
+
+      
+    ],
+    "blocks": [
+     {
+       "name": "item",
+       "type": "item",
+       "settings": [
+             {
+               "type": "image_picker",
+               "id": "img",
+               "label": "Image"
+             },
+             {
+               "type": "text",
+               "id": "item_title",
+               "label": "title"
+             },
+             {
+               "type": "text",
+               "id": "text",
+               "label": "subtitle"
+             }
+           ]
+         }
+    ],
+     "presets": [
+    {
+      "name": "Section key ingredients"
+    }
+  ]
+  }
+{% endschema %}
+

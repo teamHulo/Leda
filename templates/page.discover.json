@@ -1,0 +1,589 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--primary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "42535e72-8c52-4181-9197-894abdda088b": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16141540917422__42535e72-8c52-4181-9197-894abdda088b-kicker-1": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "NATURAL HAIR CARE ELEVATED BY CLINICAL RESEARCH",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "template--16141540917422__42535e72-8c52-4181-9197-894abdda088b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Discover LEDA Swiss Luxury Hair Care",
+            "text_size": 10
+          }
+        },
+        "template--16141540917422__42535e72-8c52-4181-9197-894abdda088b-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop now",
+            "link_1": "shopify:\/\/collections\/all",
+            "button_size_1": "btn--large btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--large",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16141540917422__42535e72-8c52-4181-9197-894abdda088b-kicker-1",
+        "template--16141540917422__42535e72-8c52-4181-9197-894abdda088b-heading-1",
+        "template--16141540917422__42535e72-8c52-4181-9197-894abdda088b-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-arsham-haghani-3445219_1_4c6b5548-05aa-4146-96ea-ab7df3febd9d.jpg",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3f064273-f44e-4d50-a87f-73ea8b629926": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16141540917422__3f064273-f44e-4d50-a87f-73ea8b629926-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_27.jpg",
+            "title": "Hair Wellness",
+            "text": "<p>We develop plant based hair care for the results that you desire. Rigorous clinical research for high quality and performance. The health of your hair for the long term is our priority.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16141540917422__3f064273-f44e-4d50-a87f-73ea8b629926-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_22.jpg",
+            "title": "Natural Plant Power",
+            "text": "<p>LEDA Swiss hair care products are rich in nutrients with 98% ingredients of natural origins. No artificial colours, parabens, silicon, petrochemicals or other substances.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16141540917422__3f064273-f44e-4d50-a87f-73ea8b629926-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_23.jpg",
+            "title": "Clinical Research",
+            "text": "<p>Our journey from passion to finished product has taken years of dedicated research. Our innovative formulas are custom crafted and luxurious in texture.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "92aba05e-4528-409c-9770-2ad0260d9153": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_25.jpg",
+            "title": "Made in Switzerland",
+            "text": "<p>Each product is researched, formulated and developed with the expertise of cosmetic chemists in Switzerland. Rigorous testing is applied to our range.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16141540917422__3f064273-f44e-4d50-a87f-73ea8b629926-text_block-1",
+        "template--16141540917422__3f064273-f44e-4d50-a87f-73ea8b629926-text_block-2",
+        "template--16141540917422__3f064273-f44e-4d50-a87f-73ea8b629926-text_block-3",
+        "92aba05e-4528-409c-9770-2ad0260d9153"
+      ],
+      "settings": {
+        "title": "LEDA Swiss Elevates the Performance of Natural Hair Care",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": false,
+        "wh_ratio": 1,
+        "grid_large": 4,
+        "grid_medium": 4,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "6a6082c5-5027-4029-87f3-835814d69dd5": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16141540917422__6a6082c5-5027-4029-87f3-835814d69dd5-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Raise the bar of your hair care, naturally!",
+            "link_1": "shopify:\/\/collections\/all",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16141540917422__6a6082c5-5027-4029-87f3-835814d69dd5-button-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "4f0b995c-efbc-4aed-b879-20146806e830": {
+      "type": "section-custom-content",
+      "blocks": {
+        "db495e0b-99e6-4056-b7f6-b2c06840c043": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "What CausesHair Issues?",
+            "text": "<p>Conditions such as dandruff, hair thinning, greying of the hair or change in texture may be caused by several factors like pollution, climate, lack of sleep or other lifestyle factors. The use of products unsuited to your hair type may also cause damage.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "3cb0508e-fb50-44a8-87bf-585271fee888": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Why Natural Hair Care?",
+            "text": "<p>A healthy scalp and hair require nutrients for vitality, in the same way as the human body. The continuous use of non-natural substances may harm the scalp and hair. These may result in drying scalp or poor hair quality. Or worse, skin reactions and irritations.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "db495e0b-99e6-4056-b7f6-b2c06840c043",
+        "3cb0508e-fb50-44a8-87bf-585271fee888"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b03f5f22-8962-4d7c-ae48-4a4a93e68da9": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123734818990__b03f5f22-8962-4d7c-ae48-4a4a93e68da9-168812379746893a4a-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover the LEDA Swiss Solution",
+            "text_size": 9
+          }
+        },
+        "template--16123734818990__b03f5f22-8962-4d7c-ae48-4a4a93e68da9-168812379746893a4a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Created with 98% ingredients of natural origins, our products are rich in essential vitamins such as vitamin E and antioxidants for healthy hair. Suitable for routine hair care and styling, our products are applied in multiple ways.<\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123734818990__b03f5f22-8962-4d7c-ae48-4a4a93e68da9-168812379746893a4a-1",
+        "template--16123734818990__b03f5f22-8962-4d7c-ae48-4a4a93e68da9-168812379746893a4a-2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 150,
+        "padding_bottom": 36
+      }
+    },
+    "933aa561-e7c0-468e-93f5-ca63302230f4": {
+      "type": "section-collection",
+      "settings": {
+        "title": "",
+        "collection": "all-products",
+        "grid": 3,
+        "rows": 1,
+        "grid_mobile": "2",
+        "bg": "palette--dark bg--invert",
+        "show_view_all": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 150
+      }
+    },
+    "fd51061d-3641-443b-ba8b-bcff593eb61b": {
+      "type": "section-double",
+      "blocks": {
+        "template--16123734818990__fd51061d-3641-443b-ba8b-bcff593eb61b-1688055996b2fca761-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Natural Power",
+            "text": "<p>⚘ We are passionate about using ingredients of natural origin for the long term health of your hair.<\/p><p>⚘ We desire our products to work for your hair and to naturally deliver powerful results.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16123734818990__fd51061d-3641-443b-ba8b-bcff593eb61b-1688055996b2fca761-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/natural-origin-powerful-results_f70f5cc1-ed33-443e-8da0-d8cb114b77e7.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16123734818990__fd51061d-3641-443b-ba8b-bcff593eb61b-1688055996b2fca761-0",
+        "template--16123734818990__fd51061d-3641-443b-ba8b-bcff593eb61b-1688055996b2fca761-1"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "078fa4ce-338e-4cc7-8a22-57ce55f3e69c": {
+      "type": "section-double",
+      "blocks": {
+        "template--16123734818990__078fa4ce-338e-4cc7-8a22-57ce55f3e69c-16881237223fd062d0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/science-innovation-formulas-performance-natural-hair-care_29d1fb1c-30b2-46ce-987d-66c8b9ab50f1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--neutral",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "template--16123734818990__078fa4ce-338e-4cc7-8a22-57ce55f3e69c-16881237223fd062d0-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Science & Innovation",
+            "text": "<p>⚘ We are committed to developing pioneering formulas to advance the performance of natural hair care.<\/p><p>⚘ We adhere to rigorous processes of clinical research by expert cosmetic chemists to give you the results that you desire from your hair care.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16123734818990__078fa4ce-338e-4cc7-8a22-57ce55f3e69c-16881237223fd062d0-1",
+        "template--16123734818990__078fa4ce-338e-4cc7-8a22-57ce55f3e69c-16881237223fd062d0-0"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a3a80efd-ed7d-47b5-9068-9d0ee5605410": {
+      "type": "section-double",
+      "blocks": {
+        "template--16123734818990__a3a80efd-ed7d-47b5-9068-9d0ee5605410-16881237223fd062d0-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Simplicity",
+            "text": "<p>⚘ We believe in simplicity and using the minimal number of products for the best health of your hair. Our formulas are concentrated and multi-use for an efficient hair care routine.<\/p><p>⚘ We strictly adhere to Clean label standards that exclude toxins, sulphates and parabens.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16123734818990__a3a80efd-ed7d-47b5-9068-9d0ee5605410-16881237223fd062d0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/simple-efficitent-formulas-hair-care-routine_af9a8474-8e71-42b7-b888-4b390e7c6f20.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--neutral",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16123734818990__a3a80efd-ed7d-47b5-9068-9d0ee5605410-16881237223fd062d0-0",
+        "template--16123734818990__a3a80efd-ed7d-47b5-9068-9d0ee5605410-16881237223fd062d0-1"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ae9a5a77-5377-4276-b7cf-014caacf640c": {
+      "type": "section-double",
+      "blocks": {
+        "template--16123734818990__ae9a5a77-5377-4276-b7cf-014caacf640c-16881237223fd062d0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LEDA-Swiss-experience-everyday-hair-luxury_d27e5519-1c46-44d8-b365-8b89557987d3.jpg",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--neutral",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "template--16123734818990__ae9a5a77-5377-4276-b7cf-014caacf640c-16881237223fd062d0-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Everyday Luxury",
+            "text": "<p>⚘ We desire to bring an experience of luxury and elegance to your every day.<\/p><p>⚘ We create the innovative rich textures of our products with only natural ingredients.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16123734818990__ae9a5a77-5377-4276-b7cf-014caacf640c-16881237223fd062d0-1",
+        "template--16123734818990__ae9a5a77-5377-4276-b7cf-014caacf640c-16881237223fd062d0-0"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d9726fbe-a6b0-4192-af5b-cebaff2dc967": {
+      "type": "section-double",
+      "blocks": {
+        "template--16123734818990__d9726fbe-a6b0-4192-af5b-cebaff2dc967-16881237223fd062d0-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Quality & Sustainability",
+            "text": "<p>⚘ We exclusively make our products locally in Switzerland for high quality standards and help reduce our environmental footprint.<\/p><p>⚘ We offer smaller formats in recyclable materials to reduce packaging waste.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16123734818990__d9726fbe-a6b0-4192-af5b-cebaff2dc967-16881237223fd062d0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/leda-swiss-quality-sustainability.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16123734818990__d9726fbe-a6b0-4192-af5b-cebaff2dc967-16881237223fd062d0-0",
+        "template--16123734818990__d9726fbe-a6b0-4192-af5b-cebaff2dc967-16881237223fd062d0-1"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "42535e72-8c52-4181-9197-894abdda088b",
+    "3f064273-f44e-4d50-a87f-73ea8b629926",
+    "6a6082c5-5027-4029-87f3-835814d69dd5",
+    "4f0b995c-efbc-4aed-b879-20146806e830",
+    "b03f5f22-8962-4d7c-ae48-4a4a93e68da9",
+    "933aa561-e7c0-468e-93f5-ca63302230f4",
+    "fd51061d-3641-443b-ba8b-bcff593eb61b",
+    "078fa4ce-338e-4cc7-8a22-57ce55f3e69c",
+    "a3a80efd-ed7d-47b5-9068-9d0ee5605410",
+    "ae9a5a77-5377-4276-b7cf-014caacf640c",
+    "d9726fbe-a6b0-4192-af5b-cebaff2dc967"
+  ]
+}

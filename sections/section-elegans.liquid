@@ -1,0 +1,102 @@
+<div class="elegans">
+  <div class="container">
+    <div class="elegans__wrap">
+      <div class="title">
+        <h2>
+          {{section.settings.title}}
+        </h2>
+      </div>
+      <div class="elegans-items">
+        {%for block in section.blocks%}
+          <div class="elegans-item">
+            <div class="elegans-item__wrap">
+              <div class="elegans-item-img">
+                <img src="{{block.settings.img | img_url : 'master'}}" alt="">
+              </div>
+              <div class="title">
+                <h5>
+                  {{block.settings.item_title}}
+                </h5>
+              </div>
+              <div class="small-text">
+                <p>
+                  {{block.settings.text}}
+                </p>
+              </div>
+              <div class="elegans-item-link">
+                <a href="{{ block.settings.url-link }}">{{ block.settings.name-link }} {% render 'link-arrow-icon' %}</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="elegans-btn">
+        <a href="{{section.settings.url}}" class="a-btn">{{section.settings.btn_name}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Section elegans",
+     "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "url",
+            "id": "url",
+            "label": "url btn"
+        },
+        {
+            "type": "text",
+            "id": "btn_name",
+            "label": "btn name"
+        }
+
+      
+    ],
+    "blocks": [
+     {
+       "name": "item",
+       "type": "item",
+       "settings": [
+             {
+               "type": "image_picker",
+               "id": "img",
+               "label": "Image"
+             },
+             {
+               "type": "text",
+               "id": "item_title",
+               "label": "title"
+             },
+             {
+               "type": "text",
+               "id": "text",
+               "label": "subtitle"
+             },
+             {
+               "type": "text",
+               "id": "name-link",
+               "label": "link name"
+             },
+             {
+               "type": "url",
+               "id": "url-link",
+               "label": "url link"
+             }
+           ]
+         }
+    ],
+     "presets": [
+    {
+      "name": "Section elegans"
+    }
+  ]
+  }
+{% endschema %}
+

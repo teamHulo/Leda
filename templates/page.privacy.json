@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "WE RESPECT YOUR PRIVACY",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--secondary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "115e73ed-105f-4d4a-b982-596b9d9d8c42": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289796782__115e73ed-105f-4d4a-b982-596b9d9d8c42-168803955202787aa1-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>---<br\/><br\/><strong>Privacy Policy<\/strong><br\/><strong>Effective Date: [6.7.2023]<\/strong><br\/><br\/>Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [<a href=\"https:\/\/www.ledaswiss.com\" title=\"https:\/\/www.ledaswiss.com\">https:\/\/www.ledaswiss.com<\/a>] (the \"Website\"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Website.<br\/><br\/>We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the \"Effective Date\" of this Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by your continued use of the Website after the date such revised Privacy Policy is posted.<br\/><br\/><strong>1. Information We Collect<\/strong><br\/><br\/><strong>1.1. Personal Information<\/strong><br\/><br\/>We may collect personal information from you such as your name, email address, postal address, phone number, and similar information when you voluntarily provide it to us. For example, we may collect personal information when you fill out a contact form, subscribe to our newsletter, or make a purchase through the Website.<br\/><br\/><strong>1.2. Non-Personal Information<\/strong><br\/><br\/>We may also collect non-personal information about you automatically when you visit the Website. This may include information such as your IP address, browser type, operating system, referring URLs, and other technical information.<br\/><br\/><strong>2. How We Use Your Information<\/strong><br\/><br\/>We may use the information we collect from you for the following purposes:<br\/><br\/>- To provide, maintain, and improve the Website and our services<br\/>- To respond to your inquiries and communicate with you<br\/>- To send you newsletters, marketing communications, and other information that may be of interest to you<br\/>- To process and complete transactions<br\/>- To personalize your experience on the Website<br\/>- To analyze and track usage of the Website and gather statistical information<br\/><br\/><strong>3. How We Disclose Your Information<\/strong><br\/><br\/>We may disclose your information to third parties in the following circumstances:<br\/><br\/>- To our affiliates, business partners, and service providers who assist us in operating the Website and providing our services<br\/>- To comply with legal obligations, such as responding to subpoenas or court orders<br\/>- To protect and defend our rights and property<br\/>- With your consent or at your direction<br\/><br\/><strong>4. Third-Party Links<\/strong><br\/><br\/>The Website may contain links to third-party websites that are not owned or controlled by us. We are not responsible for the privacy practices or the content of such websites. We encourage you to read the privacy policies and terms of use of any third-party websites that you visit.<br\/><br\/><strong>5. Security<\/strong><br\/><br\/>We take reasonable measures to protect your information from unauthorized access or disclosure. However, no data transmission over the Internet or storage system can be guaranteed to be 100% secure. Therefore, we cannot guarantee the absolute security of your information.<br\/><br\/><strong>6. Children's Privacy<\/strong><br\/><br\/>The Website is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal information from a child under 13 without verification of parental consent, we will take steps to remove that information from our servers.<br\/><br\/><strong>7. Your Choices<\/strong><br\/><br\/>You may opt-out of receiving marketing communications from us by following the instructions provided in those communications or by contacting us directly. However, even if you opt-out, we may still send you non<br\/><br\/>-promotional messages, such as administrative or transactional notifications related to your use of the Website.<br\/><br\/><strong>8. Your Rights<\/strong><br\/><br\/>Depending on your jurisdiction, you may have certain rights regarding the personal information we hold about you. These rights may include the right to access, correct, update, or delete your personal information. To exercise any of these rights, please contact us using the information provided at the end of this Privacy Policy.<br\/><br\/><strong>9. International Transfer<\/strong><br\/><br\/>Your information may be transferred to and maintained on computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those in your jurisdiction. If you are located outside the United States and choose to provide information to us, please note that we transfer the information to the United States and process it there. Your consent to this Privacy Policy, followed by your submission of such information, represents your agreement to that transfer.<br\/><br\/><strong>10. Contact Us<\/strong><br\/><br\/>If you have any questions or concerns about this Privacy Policy, please contact us at <a href=\"mailto:hello@ledaswiss.com\" title=\"mailto:hello@ledaswiss.com\">hello@ledaswiss.com<\/a>.<br\/><br\/>---<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289796782__115e73ed-105f-4d4a-b982-596b9d9d8c42-168803955202787aa1-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "115e73ed-105f-4d4a-b982-596b9d9d8c42"
+  ]
+}

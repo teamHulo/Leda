@@ -1,0 +1,73 @@
+ <div class="section-new-hero">
+      <div class="container">
+        <div class="section-new-hero__wrap">
+          <div class="section-new-hero-top">
+            <div class="left">
+              <div class="left__wrap">
+                  <div class="title">
+                    <h2>
+                      {{ section.settings.title_left }}
+                    </h2>
+                  </div>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="middle__wrap">
+                  <div class="image">
+                    <img src="{{ section.settings.img | img_url: 'master' }}" alt="" width="" height="">
+                  </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="right__wrap">
+                  <div class="title">
+                    <h2>
+                      {{ section.settings.title_right }}
+                    </h2>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-new-hero-bottom">
+            <div class="text">
+              {{ section.settings.text}}
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+{% schema %}
+    {
+      "name": "section-new-hero",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+           "label": "image"
+        },
+         {
+                "type": "text",
+                "id": "title_left",
+                "label": "title left",
+                "default": "Hair Care of 98% Natural Origins"
+         },
+         {
+                "type": "text",
+                "id": "title_right",
+                "label": "title rigth",
+                "default": "Elevated by swiss Clinical Research."
+         },
+        {
+                "type": "richtext",
+                "id": "text",
+                "label": "text",
+                "default": "<p>Healthy, Manageable and Vibrant Hair - with only one change in your hair cair routine. Daily Spa-Level Hair Treatment, right at home.</p>"
+         }
+      ],
+      "presets": [
+        {   
+          "name": "section-new-hero"
+        }
+      ]
+    }
+{% endschema %}

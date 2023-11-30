@@ -1,0 +1,626 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "5e69df9a-572e-4b38-b839-3b56989e3e77": {
+          "type": "rating",
+          "settings": {
+            "range": 5
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": 9,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "86ec1eec-2e5a-4d40-9b0f-d75712ea900c": {
+          "type": "text",
+          "settings": {
+            "title": "<p>The ultimate ritual for  sleek styling and deep conditioning. Nourish, repair, soften, strengthen and protect your hair. <strong>98% natural<\/strong>, clinically proven and made in Switzerland.<\/p>",
+            "padding_bottom": 20
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": 5,
+            "padding_bottom": 40
+          }
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "settings": {
+            "option_space": 30,
+            "padding_bottom": 30
+          }
+        },
+        "subscriptions": {
+          "type": "subscription",
+          "settings": {
+            "subscriptions_enable_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "show_quantity": true,
+            "padding_bottom": 20
+          }
+        },
+        "sizes-remaining": {
+          "type": "size-remaining",
+          "settings": {
+            "info_page": "",
+            "show_remaining": true,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "padding_bottom": 0
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "style": "accordions",
+            "enable_description": true,
+            "read_more": false,
+            "icon_description": "",
+            "description_expanded": true,
+            "title_1": "Hair Type",
+            "icon_name_1": "",
+            "raw_content_1": "<p>Suitable for all hair types, and especially beneficial for thick, straight, curly, wavy or frizzy of any length. Ideal for hair that's dry, prone to breakage or damaged by heat styling, bleaching or colouring. Equally effective in protecting your hair from environmental factors. <\/p>",
+            "title_2": "Ingredients",
+            "icon_name_2": "",
+            "raw_content_2": "<p><strong>98% Natural and Organic Oils, Organic Swiss Plant Extracts and Bioactives.<\/strong><\/p><p>Avocado Oil, Apricot Kernel Oil, Organic Sunflower Seed Oil, Organic Jojoba Oil, Organic Argan Oil, Organic Shea Butter, Mango Butter, Olive Oil, Organic Swiss Plant Extracts and Bioactives.<\/p><p>We strictly adhere to Clean label standards that exclude toxins, sulfates and parabens.<\/p>",
+            "title_3": "How To Apply",
+            "icon_name_3": "",
+            "raw_content_3": "<p><strong>For lustrous, air or blow-dried hair:<\/strong><\/p><ol><li>Apply a small amount to clean damp hair and dispense one tiny pump of serum for short hair, and one or two small pumps for long, thick, curly or frizzy hair.<\/li><li>For extra dry or curly hair, apply a tiny amount of cream for an additional layer of moisture or protection before heat styling.<\/li><li>Gently massage the products from ends to roots, and proceed to air or blow dry your hair.<\/li><li>Reapply serum to dry hair as needed for an extra boost of hydration or gloss.<\/li><li>Smooth a tiny touch of nourish cream to hair ends or for deeper moisture.<\/li><li>For dry scalps, part the hair in sections and apply directly onto the scalp.<\/li><\/ol><p><br\/><\/p><p><strong>How to apply using the LOC (Liquid, Oil, Cream) Method:<\/strong><\/p><p>The Revitalise Hair Serum and Nourish Hair Cream are a powerful duo that amplify the benefits of this styling technique.<br\/><\/p><ol><li>Apply the LEDA Swiss Revitalise Oil Serum to damp hair.<\/li><li>Once your hair is dry, smooth curls and add extra hydration with the LEDA Swiss Nourish Hair Cream.<\/li><\/ol>",
+            "title_4": "Texture",
+            "icon_name_4": "",
+            "raw_content_4": "<p>Delight in the luxurious texture of this creamy serum rich in vitamins and antioxidants. Intensely moisturising yet lightweight, this smooth texture is uniquely created with only natural ingredients. Lightly fragranced in harmony with the natural oils and plant extracts.<\/p>",
+            "title_5": "FAQ",
+            "icon_name_5": "",
+            "raw_content_5": "<p><strong>How often should I use the product?<br\/><\/strong>It depends on your hair type and length, for some customers they use the serum daily. For other customers they use the serum  every few days. Or for the cream weekly as a mask, or apply to dry scalp. We recommend you use the products and see what works best for your hair type.<\/p><p><\/p><p><strong>Is the product suitable for all hair types?<br\/><\/strong>Our products are suitable for all hair types of any length. They are particularly adapted to dry or thick hair, frizzy, curly or damaged hair through styling, heat treatments or environmental factors. With finer hair types, simply use a lot less product.  <\/p><p><\/p><p><strong>How long will it take to see results from using the product?<br\/><\/strong>Our products are the foundation for healthy hair. From the first application, our customers have experienced that their hair is easier to detangle and manage, softer with natural shine. Curls are smoother and more defined. With regular usage over time, hair becomes stronger, more resistant that leads to hair growth and reduced strand breakage. <\/p><p><\/p><p><strong>Can the product help with hair growth or hair loss?<br\/><\/strong>LEDA Swiss hair care offers the essential foundation to care for the long-term health of your hair from the scalp to root and hair tips. Regular use of the products will help to strengthen your hair leading to reduced breakage and more hair growth. <\/p>",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "title": "Buy it with",
+            "upsell_type": "product_single",
+            "product": "nourish-hair-cream-leda-swiss",
+            "upsell_product_list": [
+
+            ],
+            "upsell_list_limit": 1,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "5e69df9a-572e-4b38-b839-3b56989e3e77",
+        "title",
+        "86ec1eec-2e5a-4d40-9b0f-d75712ea900c",
+        "price",
+        "variants",
+        "subscriptions",
+        "quantity",
+        "sizes-remaining",
+        "buttons",
+        "description",
+        "upsell"
+      ],
+      "settings": {
+        "layout": "thumbnails-left@slides",
+        "image_width": "wide",
+        "image_spacing": 10,
+        "align": "left",
+        "bg": "palette--light bg--neutral",
+        "mobile_layout": "carousel",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "alt_text_enable": true,
+        "alt_text_icon": "icon-basket-return",
+        "product_breadcrumbs_enable": false,
+        "product_breadcrumbs_list": [
+
+        ],
+        "width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "e1f2dd9d-077a-4e2c-b12a-6f55ec4d87ba": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16146869518510__e1f2dd9d-077a-4e2c-b12a-6f55ec4d87ba-kicker-1": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "98% of Natural Origins, 100% Made in Switzerland",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "template--16146869518510__e1f2dd9d-077a-4e2c-b12a-6f55ec4d87ba-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Inspired by Nature, Elevated by Clinical Research",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--16146869518510__e1f2dd9d-077a-4e2c-b12a-6f55ec4d87ba-kicker-1",
+        "template--16146869518510__e1f2dd9d-077a-4e2c-b12a-6f55ec4d87ba-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-section.jpg",
+        "height": "use_pixels_500",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "92e52327-e3b2-4ab7-9d8a-80b58b057a25": {
+      "type": "my-testimonial-v2",
+      "blocks": {
+        "768a72b6-819b-4a34-92ef-0cbb975ccfd8": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hynda.jpg",
+            "range": 5,
+            "text": "LEDA Swiss products have a surprisingly effective texture – creamy and light, but powerful. They make my hair as moisturised as I desire.",
+            "subtitle": "",
+            "name": "HYNDA, SWITZERLAND"
+          }
+        },
+        "c26e323a-09ac-47b2-9c1f-4a21be54ff5e": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/kristina.jpg",
+            "range": 5,
+            "text": "I could never wash my hair without using conditioner because it would be unmanageable afterwards. Since discovering Leda Swiss, I've been able to skip the conditioner and simply distribute the serum through my wet hair. After that, they brush out and detangle effortlessly and become soft and glossy.",
+            "subtitle": "",
+            "name": "KRISTINA, SWITZERLAND"
+          }
+        },
+        "c51b5658-2dc2-4e1c-b250-f623f4b9b4cf": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Melli.jpg",
+            "range": 5,
+            "text": "LEDA Swiss's latest hair care collection has rejuvenated my hair! Following years of heat-induced wear and tear, my locks are now sleek and radiant. These products have an amazing aroma, smoothen frizz, and give my curls a full and vigorous appearance.",
+            "subtitle": "",
+            "name": "MELLI, DE"
+          }
+        },
+        "12fcf012-0940-48cd-8c95-9f98f8dce4f3": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/yulia.jpg",
+            "range": 5,
+            "text": "After using the products just a few times, I could already see how much stronger my hair has become. I haven't stopped using them since then. I prefer using both together, but I also use the cream separately more often as it prevents my hair from getting dry.",
+            "subtitle": "",
+            "name": "YULIA, SWITZERLAND"
+          }
+        },
+        "de3a3ee5-21d4-45c6-92dd-7b867dcd0cc3": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/wanda.jpg",
+            "range": 5,
+            "text": "This product was fantastic. I have notably curly hair and I wash it roughly three times a week. It tends to become dry, so it's wonderful to discover products that provide and lock in moisture without rendering it greasy. I'll certainly continue with LEDA Swiss, especially given its wonderful scent!",
+            "subtitle": "",
+            "name": "WANDA, DE"
+          }
+        },
+        "ecd7a6ee-5dd9-44cf-bca3-e88be562ae6d": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/tamara.jpg",
+            "range": 5,
+            "text": "I adore the refreshing and subtle scent of these products. My hair, which is usually dry and exposed to chlorine, feels notably smoother and well-hydrated now. I apply the Serum daily and the results have truly delighted me!",
+            "subtitle": "",
+            "name": "Victoria, Switzerland"
+          }
+        }
+      },
+      "block_order": [
+        "768a72b6-819b-4a34-92ef-0cbb975ccfd8",
+        "c26e323a-09ac-47b2-9c1f-4a21be54ff5e",
+        "c51b5658-2dc2-4e1c-b250-f623f4b9b4cf",
+        "12fcf012-0940-48cd-8c95-9f98f8dce4f3",
+        "de3a3ee5-21d4-45c6-92dd-7b867dcd0cc3",
+        "ecd7a6ee-5dd9-44cf-bca3-e88be562ae6d"
+      ],
+      "settings": {
+        "name": "Real Results",
+        "btn_name": "leda swiss",
+        "url": ""
+      }
+    },
+    "c578fcf3-e88d-4bec-8920-7076b5028f5f": {
+      "type": "section-before-after",
+      "disabled": true,
+      "settings": {
+        "bg": "shopify:\/\/shop_images\/sharon-pittaway-4_hFxTsmaO4-unsplash_copy_1_1.png",
+        "before": "shopify:\/\/shop_images\/Rectangle_96.png",
+        "after": "shopify:\/\/shop_images\/Rectangle_97.png",
+        "name": "98% Natural Ingredients, 100% Made in Switzerland",
+        "title": "Inspired by Nature, Backed by Science",
+        "url": "",
+        "btn-name": "LEARN MORE"
+      }
+    },
+    "7c5781fa-2fe9-4d5a-a121-a11e6a6898dd": {
+      "type": "section-ingredients",
+      "disabled": true,
+      "settings": {
+        "bg": "shopify:\/\/shop_images\/sharon-pittaway-4_hFxTsmaO4-unsplash_copy_1_1.png",
+        "name": "98% Natural Ingredients, 100% Made in Switzerland",
+        "title": "Inspired by Nature,Backed by Science",
+        "text": "Our products, rich in 98% natural ingredients and developed in Switzerland, work harmoniously and harmlessly to nourish and revitalize, revealing the full potential of your hair's natural vitality.",
+        "url": "",
+        "btn_name": "learn more"
+      }
+    },
+    "83ea2edf-318a-4b0c-b38e-68c44c78aa7d": {
+      "type": "about-the-product",
+      "settings": {
+        "name": "about the product",
+        "img": "shopify:\/\/shop_images\/kaboompics_the-back-of-a-young-woman-medium-length-brown-straight-hair-29182_2.png",
+        "title": "The Duo For Majestic Hair Moments",
+        "text": "<p>Imagine a harmonious hair care ritual with complimentary botanical products, to achieve immaculate styling results and that deeply nourishes your hair and scalp.<\/p><p>With the LEDA Swiss Revitalise Serum and the LEDA Swiss Nourish Cream, we offer you a perfectly curated duo to rejuvenate, protect, and transform your hair. With these two precious formulas, unlock the full beauty of your hair, and experience its true natural vibrancy and health. <br\/><br\/>Try the solution that will provide everything your hair has been craving.<\/p>"
+      }
+    },
+    "be5f4981-8cc6-41a0-9b6c-717465138456": {
+      "type": "section-benefit",
+      "blocks": {
+        "d86c3fe9-b42b-45a5-b622-a6461412f282": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Foundational.png",
+            "title": "<p>Foundational<\/p>",
+            "text": "Designed to holistically care for the health of your hair from root to tip that lasts a lifetime. Skins and scalp will remain unharmed due to the clean and natural ingredients."
+          }
+        },
+        "bd57877e-fee8-403f-89e1-fb783c574f81": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Higher_Concentration.png",
+            "title": "<p>Highest Concentration<\/p>",
+            "text": "The intensely nourishing formulation is fully enriched and undiluted, therefore necessities only a minimal amount for powerful benefits. This differentiates LEDA Swiss clearly from alternatives."
+          }
+        },
+        "0c261efa-0202-463d-b95f-88b4ae7a7761": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Clean_Natural.png",
+            "title": "<p>Clean & Natural<\/p>",
+            "text": "Suitable for adults and children with skin sensitivities or allergies our hair care is created with safe, non toxic and natural ingredients. Adhering to international clean label standards that exclude chemicals and synthetic substances."
+          }
+        }
+      },
+      "block_order": [
+        "d86c3fe9-b42b-45a5-b622-a6461412f282",
+        "bd57877e-fee8-403f-89e1-fb783c574f81",
+        "0c261efa-0202-463d-b95f-88b4ae7a7761"
+      ],
+      "settings": {
+        "name": "ULTIMATE LUXURY HAIR CARE",
+        "title": "ULTIMATE LUXURY HAIR CARE",
+        "text": ""
+      }
+    },
+    "49a92014-f186-457f-b116-13cef157d48e": {
+      "type": "section-key-ingredients",
+      "blocks": {
+        "79171c97-12e0-4142-87fe-d914c5d7c13e": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_50.png",
+            "item_title": "Vegan Keratin",
+            "text": "A unique blend of quinoa, lentil, and chickpea peptides that mirrors the benefits of conventional keratin to enhance smoothness, reduce-frizz, and boost shine and hydration."
+          }
+        },
+        "430d927a-ecb6-47e6-89fb-c8951422b00c": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_51.png",
+            "item_title": "Organic Swiss Botanical Extracts",
+            "text": "Each product is infused with a bouquet of plant extracts grown high in the Swiss alps to nourish and revitalise your hair. Enriched with flavonoids, silicic acid, and an abundance of minerals to harmoniously restore your hair's beauty and resilience, leaving it silky and naturally glossy."
+          }
+        },
+        "7c87ae9c-d54f-42b6-a6c3-ccbefc51f653": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_52.png",
+            "item_title": "Rich and Organic Oils",
+            "text": "We have precisely selected a luxurious blend of the finest oils and butters  known to deliver multiple benefits for hair and scalp for ultimate nourishment, hair growth, and deep conditioning."
+          }
+        }
+      },
+      "block_order": [
+        "79171c97-12e0-4142-87fe-d914c5d7c13e",
+        "430d927a-ecb6-47e6-89fb-c8951422b00c",
+        "7c87ae9c-d54f-42b6-a6c3-ccbefc51f653"
+      ],
+      "settings": {
+        "name": "Key Ingredients",
+        "url": "shopify:\/\/pages\/ingredients",
+        "btn_name": "see all ingredients"
+      }
+    },
+    "d6ad34ef-f023-46eb-a417-b4a788e07c4a": {
+      "type": "section-how-use",
+      "blocks": {
+        "d71de7b4-5978-4c77-9f04-efa6fbaf1a96": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_50_1.png",
+            "item_title": "Apply on Wet Hair and Massage",
+            "text": "Apply on wet hair one small pump for short hair, and one or two pumps for long, thick, curly or frizzy hair. Gentle massage from end to roots."
+          }
+        },
+        "053c9e22-4cba-4e27-921f-a273f4b7d21d": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_51_1.png",
+            "item_title": "Dry Hair",
+            "text": "All dry hair."
+          }
+        },
+        "5f58902e-a7c6-4a4a-b5c8-c5a6c8b33a0b": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_52_1.png",
+            "item_title": "Reapply for Extra Hydration",
+            "text": "Reapply serum to dry hair for extra hydration. Or the nourish hair cream to hair ends."
+          }
+        }
+      },
+      "block_order": [
+        "d71de7b4-5978-4c77-9f04-efa6fbaf1a96",
+        "053c9e22-4cba-4e27-921f-a273f4b7d21d",
+        "5f58902e-a7c6-4a4a-b5c8-c5a6c8b33a0b"
+      ],
+      "disabled": true,
+      "settings": {
+        "name": "how to use it"
+      }
+    },
+    "bee78a02-1a08-4376-b927-c14410bcd610": {
+      "type": "section-faq",
+      "blocks": {
+        "template--16146869518510__bee78a02-1a08-4376-b927-c14410bcd610-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "How often should I use the product?",
+            "content": "<p>It depends on your hair type and length, for some customers they use the serum daily. For other customers they use the serum  every few days. Or for the cream weekly as a mask, or apply to dry scalp. We recommend you use the products and see what works best for your hair type.<\/p>"
+          }
+        },
+        "template--16146869518510__bee78a02-1a08-4376-b927-c14410bcd610-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Is the product suitable for all hair types?",
+            "content": "<p>Our products are suitable for all hair types of any length. They are particularly adapted to dry or thick hair, frizzy, curly or damaged hair through styling, heat treatments or environmental factors. With finer hair types, simply use a lot less product.<\/p>"
+          }
+        },
+        "template--16146869518510__bee78a02-1a08-4376-b927-c14410bcd610-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "How long will it take to see results from using the product?",
+            "content": "<p>Our products are the foundation for healthy hair. From the first application, our customers have experienced that their hair is easier to detangle and manage, softer with natural shine. Curls are smoother and more defined. With regular usage over time, hair becomes stronger, more resistant that leads to hair growth and reduced strand breakage.<\/p>"
+          }
+        },
+        "109603f2-81c8-45b3-a4af-aecc34c40ab4": {
+          "type": "text",
+          "settings": {
+            "title": "Can the product help with hair growth or hair loss?",
+            "content": "<p>LEDA Swiss hair care offers the essential foundation to care for the long-term health of your hair from the scalp to root and hair tips. Regular use of the products will help to strengthen your hair leading to reduced breakage and more hair growth.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16146869518510__bee78a02-1a08-4376-b927-c14410bcd610-text-1",
+        "template--16146869518510__bee78a02-1a08-4376-b927-c14410bcd610-text-2",
+        "template--16146869518510__bee78a02-1a08-4376-b927-c14410bcd610-text-3",
+        "109603f2-81c8-45b3-a4af-aecc34c40ab4"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_align": "text-center",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 74
+      }
+    },
+    "8155ed8e-16f6-4017-9007-8ca119d7b255": {
+      "type": "mysection-icons",
+      "blocks": {
+        "83cc4ebf-9cd7-4fd0-8019-79ffa84d4693": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_5.png",
+            "text": "98% Ingredients of Natural Origin"
+          }
+        },
+        "f05bc2ef-c04a-4c49-a9ae-d55067e7b7e5": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_6.png",
+            "text": "organic swiss plant extract"
+          }
+        },
+        "d8df8b1a-5d6d-4180-b457-7350cb260101": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_7.png",
+            "text": "independently <br>safety tested"
+          }
+        },
+        "9ec87303-e72f-4f9c-af9a-3ce431882883": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_8.png",
+            "text": "cruelty <br> free"
+          }
+        },
+        "de59c382-8fda-4c41-a44f-e4f85d949c4d": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/OBJECTS_1.png",
+            "text": "vegan"
+          }
+        },
+        "063bc2be-8703-461a-bf01-2e625e2b3ba0": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Group_19_1.png",
+            "text": "made in <br>switzerland"
+          }
+        }
+      },
+      "block_order": [
+        "83cc4ebf-9cd7-4fd0-8019-79ffa84d4693",
+        "f05bc2ef-c04a-4c49-a9ae-d55067e7b7e5",
+        "d8df8b1a-5d6d-4180-b457-7350cb260101",
+        "9ec87303-e72f-4f9c-af9a-3ce431882883",
+        "de59c382-8fda-4c41-a44f-e4f85d949c4d",
+        "063bc2be-8703-461a-bf01-2e625e2b3ba0"
+      ],
+      "settings": {
+        "bg_color": "#fddda0",
+        "text_color": "#00463f"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": true,
+        "bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1700730360ddeeae35": {
+      "type": "apps",
+      "blocks": {
+        "102034b9-0194-4f68-9c2c-27551a70805c": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "102034b9-0194-4f68-9c2c-27551a70805c"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 3,
+        "product_recently_heading": "Recently viewed",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cda44d7d-6eb0-4573-9315-694c9e2f112b": {
+      "type": "section-inst",
+      "blocks": {
+        "001af735-ed32-4513-a2b7-7823f70f4806": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_30.png"
+          }
+        },
+        "7bb4118c-b7e5-4e3b-921e-59136d584d53": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_29.png"
+          }
+        },
+        "0993b16a-82fd-4faa-bc23-4f420e89963f": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_31.png"
+          }
+        }
+      },
+      "block_order": [
+        "001af735-ed32-4513-a2b7-7823f70f4806",
+        "7bb4118c-b7e5-4e3b-921e-59136d584d53",
+        "0993b16a-82fd-4faa-bc23-4f420e89963f"
+      ],
+      "settings": {
+        "title": "#LedaHeritage —  A Celebration of Diverse Women",
+        "text": "<p>Join us as we showcase the rich tapestry of hairstyles and inspire each other to embrace our individuality, expressing our true selves through the artistry of our hair. Share your <a href=\"#\">#LedaHeritage<\/a> and become part of a community where every woman's story is honored and celebrated.<\/p><p>Tag <a href=\"#\">@ledaswiss<\/a> for an exclusive opportunity to win exceptional prizes as part of our prestigious <a href=\"#\">#LedaHeritage<\/a> campaign.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e1f2dd9d-077a-4e2c-b12a-6f55ec4d87ba",
+    "92e52327-e3b2-4ab7-9d8a-80b58b057a25",
+    "c578fcf3-e88d-4bec-8920-7076b5028f5f",
+    "7c5781fa-2fe9-4d5a-a121-a11e6a6898dd",
+    "83ea2edf-318a-4b0c-b38e-68c44c78aa7d",
+    "be5f4981-8cc6-41a0-9b6c-717465138456",
+    "49a92014-f186-457f-b116-13cef157d48e",
+    "d6ad34ef-f023-46eb-a417-b4a788e07c4a",
+    "bee78a02-1a08-4376-b927-c14410bcd610",
+    "8155ed8e-16f6-4017-9007-8ca119d7b255",
+    "reviews",
+    "1700730360ddeeae35",
+    "related",
+    "cda44d7d-6eb0-4573-9315-694c9e2f112b"
+  ]
+}

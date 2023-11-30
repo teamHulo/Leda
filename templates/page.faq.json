@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "FAQ",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--secondary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_1_1": {
+          "type": "text",
+          "settings": {
+            "title": "Shipment",
+            "content": "<p>Shipping costs are calculated based on the country of destination. The costs for postage and packaging are shown at checkout after clicking on \"proceed to payment\" and before final payment. In principle, the goods are sent within 2-5 working days after payment of the order. If you wish to have the goods delivered to an address other than the customer's, it is your responsibility to inform us of the desired delivery address.<\/p>"
+          }
+        },
+        "accordion_block_1_4": {
+          "type": "text",
+          "settings": {
+            "title": "What payment methods are eccepted.",
+            "content": "<p>We accept all major credit cards Visa, Mastercard or American Express. Payments can also be made by Apple Pay or TWINT (only valid in Switzerland).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_1",
+        "accordion_block_1_4"
+      ],
+      "settings": {
+        "title": "Shipping & Delivery",
+        "title_align": "text-center",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "accordion-section-4": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_4_0": {
+          "type": "text",
+          "settings": {
+            "title": "Returns",
+            "content": "<p>These are hygiene articles, therefore only unopened items can be returned in exceptional circumstances. The items must be unused, in excellent condition and returned in the original packaging.<\/p><p>Defective products must be reported in writing within 7 days of receipt. Otherwise the products are considered to have been formally accepted.<\/p><p>Please state the exact reason for your refund request when contacting our customer service department. We will evaluate your return request and inform you of any further steps to be taken.<\/p><p>If you have any questions, please contact our customer service department in writing at <a href=\"mailto:hello@ledaswiss.com\" title=\"mailto:hello@ledaswiss.com\">hello@ledaswiss.com<\/a>.<\/p>"
+          }
+        },
+        "accordion_block_4_1": {
+          "type": "text",
+          "settings": {
+            "title": "Exchange due to damage from transportation",
+            "content": "<p>Orders leave our warehouse in excellent condition and cannot be returned or exchanged. Packages damaged in transit and arrive defective on arrival can be evaluated for reshipping. For packages that do not arrive at the correct destination can also be evaluated for reshipping.<\/p><p>All defects must be reported within 2 days of receipt of the products in writing to our customer service department at hello@ledaswiss.com with photographs. We will evaluate the condition of the goods and the options of reshipping or a return. If defects are not reported in writing within 2 days of receipt, the products are considered to have been formally accepted.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_4_0",
+        "accordion_block_4_1"
+      ],
+      "settings": {
+        "title": "Returns & Refunds",
+        "title_align": "text-center",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "accordion-section-3": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_3_1": {
+          "type": "text",
+          "settings": {
+            "title": "What type of hair are products (serum + cream) suitable for?",
+            "content": "<p>Our products are suitable for all hair types. They are particularly adapted to dry or thick hair, frizzy, curly or damaged hair through styling, heat treatments or environmental factors.<\/p>"
+          }
+        },
+        "accordion_block_3_2": {
+          "type": "text",
+          "settings": {
+            "title": "How best to use the products?",
+            "content": "<p><strong>Application for the Revitalise Serum<\/strong><br\/>Apply a small quantity of serum to damp hair from the roots, to the lengths and smoothing the ends. The product is rich in natural ingredients, so start with less product than your usual routine, and reapply as needed. Air dry hair naturally or blow dry and style. Re-apply the serum for complete hydration. <br\/><br\/><strong>Application for the Nourish Cream<\/strong><br\/>Apply a very small amount of cream to towel dried hair. Air dry or heat style hair. Re-apply a small amount of cream to dry hair to smooth fly-away ends. Apply the cream directly to the scalp to soothe dandruff and itchy scalps, or protect from heat styling. Apply to help protect before exposure to chlorine or the sun. This rich cream is particularly suitable for very thick or dry hair. Start with a small amount and reapply as required.<\/p>"
+          }
+        },
+        "334bce84-9753-4096-923d-4e8f1351573c": {
+          "type": "text",
+          "settings": {
+            "title": "Where are your products made? 100% Swiss Made",
+            "content": "<p>Our products are entirely developed by cosmetic experts in Switzerland and produced in facilities certified to ISO worldwide standards of quality, and adhere to sustainable practices.<\/p>"
+          }
+        },
+        "b3de7abc-6af3-4a34-8fb4-fd4f3917537d": {
+          "type": "text",
+          "settings": {
+            "title": "Are the products also suitable for men?",
+            "content": "<p>The products are suitable for all hair types of any length. They are particularly adapted for thick, curly, dry or damaged hair. The fragrance of the products are appreciated by all users.<\/p><p>The Nourish Cream is ideal for styling, holding and naturally shaping hair without stiffness. The Revitalise Serum smoothes and adds shine for longer hair types. Regular use of both products can result in soft and shiny hair for long term health. To help prevent hair loss and promote growth.<\/p>"
+          }
+        },
+        "0c666775-d16e-44b6-9c07-22a291e34b76": {
+          "type": "text",
+          "settings": {
+            "title": "Are the products also suitable for children?",
+            "content": "<p>Our products can be suitable for children. LEDA Swiss hair care products strictly adhere to clean label standards. The formulas are created with 98% natural ingredients, and do not contain artificial or chemical substances. LEDA Swiss products strictly adhere to rigorous safety and allergen testing that is conducted in certified scientific laboratories in Switzerland.<\/p><p>However, as with all new cosmetic products, we recommend that you conduct a small test before use. Apply a small application to an area, such as the inside of the forearm for 24 hours to assess any reaction. Avoid the eye area and rinse thoroughly in case of contact with the eyes. This product is not recommended for children under 6 years of age. <\/p>"
+          }
+        },
+        "a77b13c4-dde6-4882-bc72-5ab09e4973ef": {
+          "type": "text",
+          "settings": {
+            "title": "How should products be stored?",
+            "content": "<p>This is a product based on natural ingredients without artificial preservatives. Therefore, we recommend the product is stored for no more than 12 months after opening. It is advisable to keep your product in a dry place and away from direct light and heat. However, you do not need to keep it in a cool place, room temperature is sufficient. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_3_1",
+        "accordion_block_3_2",
+        "334bce84-9753-4096-923d-4e8f1351573c",
+        "b3de7abc-6af3-4a34-8fb4-fd4f3917537d",
+        "0c666775-d16e-44b6-9c07-22a291e34b76",
+        "a77b13c4-dde6-4882-bc72-5ab09e4973ef"
+      ],
+      "settings": {
+        "title": "Other",
+        "title_align": "text-center",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "accordion-section-1",
+    "accordion-section-4",
+    "accordion-section-3"
+  ]
+}

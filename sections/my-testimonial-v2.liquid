@@ -1,0 +1,143 @@
+<div class="my-testimonial testimonial-v2">
+  {% if section.settings.bg != blank %}
+    <img src="{{ section.settings.bg |img_url: 'master' }}"/>
+  {% endif %}
+  <div class="container">
+    <div class="testimonial__wrap">
+      <div class="name">
+        <span>
+          {{section.settings.name}}
+        </span>
+      </div>
+      <div class="ww">
+          <div class="swiper swiper-testimonial2 swiper-testimonial">
+              <div class="swiper-wrapper">
+               {%for block in section.blocks %}
+                <div class="swiper-slide">
+                   <div class="swiper-slide__wrap">
+                     <div class="testi-foto">
+                        <img src="{{ block.settings.img |img_url: 'master' }}"/>
+                     </div>
+                      <div class="rating">
+                        {% for i in (1..block.settings.range)%}
+                          {%render 'icon-star'%}
+                        {%endfor%}
+                      </div>
+                      <div class="small-text">
+                                                 
+                          {{block.settings.subtitle}}
+                        
+                        <p>
+                          {{block.settings.text}}
+                        </p>
+       
+                      </div>
+                      <div class="small-text text-name">
+                        <p>
+                          {{block.settings.name}}
+                        </p>
+                      </div>
+                     
+                   </div>
+                </div>
+               {% endfor %}
+                
+              </div>
+           
+              <div class="swiper-pagination"></div>
+              <div class="swiper-scrollbar-wrap">
+                <div class="swiper-scrollbar"></div>
+              </div>
+              
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+      </div>
+   
+      {% if  section.settings.url != blank%}
+        <div class="button-wrapper">
+            <a href="{{ section.settings.url }}" class="a-btn">{{ section.settings.btn_name }}W</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Section my-testimonial",
+     "settings": [
+        {
+               "type": "image_picker",
+               "id": "bg",
+               "label": "background img"
+        },
+       {
+            "type": "text",
+            "id": "name",
+            "label": "name",
+            "default" : "leda swiss"
+        },
+       
+        {
+            "type": "text",
+            "id": "btn_name",
+            "label": "btn name",
+            "default" : "leda swiss"
+        },
+       
+        {
+            "type": "url",
+            "id": "url",
+            "label": "btn url"
+           
+        }
+      
+    ],
+    "blocks": [
+     {
+       "name": "item",
+       "type": "item",
+       "settings": [
+            {
+                 "type": "image_picker",
+                 "id": "img",
+                 "label": "img"
+              },
+             {
+                "type": "range",
+                "id": "range",
+                "min": 1,
+                "max": 5,
+                "step": 1,
+                "unit": "px",
+                "label": "rating",
+                "default": 5
+              },
+             {
+               "type": "text",
+               "id": "text",
+               "label": "text"
+             },
+                      {
+               "type": "richtext",
+               "id": "subtitle",
+               "label": "product used"
+             },
+             {
+               "type": "text",
+               "id": "name",
+               "label": "name"
+             }
+           ]
+         }
+    ],
+     "presets": [
+    {
+      "name": "Section my-testimonial-v2"
+    }
+  ]
+  }
+{% endschema %}

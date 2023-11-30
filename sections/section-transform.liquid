@@ -1,0 +1,73 @@
+{% assign product = section.settings.product %}
+{%  assign product_form_id = 'product-form-' | append: section.id | append: '-' | append: product.id %}
+<div class="section-new-product">
+      <div class="container">
+        <div class="section-new-product__wrap">
+          <div class="left">
+            <div class="left__wrap">
+              <div class="title">
+                <h4>
+                  {{section.settings.title}}
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right__wrap">
+              <div class="image">
+                <div class="image__wrap"> 
+                   <img src="{{ product.featured_image | img_url: 'master'}}" alt="" width="" height=""/>
+                </div>
+               
+              </div>
+              <div class="product-content">
+                 <div class="subtitle-1">
+                  <p>
+                    {{product.title}}
+                  </p>
+                 </div>
+                 <div class="subtitle-2">
+                    <p class="price"> {{product.price | money}}</p>
+                    <p class="price_at"> {{product.compare_at_price | money}} </p>
+                 </div>
+                 <div class="text-1">
+                    {{product.description}}
+                 </div>
+                 <div class="product-btn">
+                     {% comment %} {%- form 'product', product, id: product_form_id, data-product-form: '', data-product-handle: product.handle -%}
+                          <input type="hidden" class="first-variant" value="{{product.first_available_variant.id}}">
+                          <button  type="submit" name="add" class="new-a-btn my_add-btn"> Add to Cart </button>
+                      {% endform %} {% endcomment %}
+                      {% render 'product-buttons', product:product, myclass:'new-a-btn', custom:true %}
+                 </div>
+                     
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+{% schema %}
+    {
+      "name": "section-new-product",
+      "settings": [
+        {
+        "type":"product",
+        "id":"product",
+        "label":"product"
+      },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title",
+          "default":"Transform your hair care ritual with the powerful combination of LEDA Duo"
+        }
+      ],
+      "presets": [
+        {   
+          "name": "section-new-product"
+        }
+      ]
+    }
+  {% endschema %}

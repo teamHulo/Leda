@@ -1,0 +1,8 @@
+{
+  "parent": "product.duo_new.json",
+  "context": {
+    "market": "c69e8cfa-3b7d-43c6-8e4e-e8d2b564e2e5"
+  },
+  "sections": {
+  }
+}

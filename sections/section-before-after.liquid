@@ -1,0 +1,93 @@
+   <div class="section-before-after">
+        <img class="img-bg" src="{{section.settings.bg| img_url:'master'}}" alt="">
+        <div class="container">
+          <div class="section-before-after__wrap">
+            <div class="name">
+              <span>
+                {{section.settings.name}}
+              </span>
+            </div>
+            <div class="title h2">
+              <h2>
+                {{section.settings.title}}
+              </h2>
+            </div>
+            <div class="ab-image">
+              <div class="before ab-item">
+                <img src="{{section.settings.before| img_url:'master'}}" alt="">
+                <div class="text">
+                  <p>
+                    Before
+                  </p>
+                </div>
+              </div>
+              <div class="after ab-item">
+                <img src="{{section.settings.after| img_url:'master'}}" alt="">
+                <div class="text">
+                  <p>
+                    After
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-btn">
+              <a href="{{section.settings.url}}" class="a-btn">{{section.settings.btn-name}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+{% schema %}
+  {
+    "name": "Section before-after",
+     "settings": [
+        {
+               "type": "image_picker",
+               "id": "bg",
+               "label": "background img"
+        },
+         {
+               "type": "image_picker",
+               "id": "before",
+               "label": "before img"
+        },{
+               "type": "image_picker",
+               "id": "after",
+               "label": "after img"
+        },
+         {
+            "type": "text",
+            "id": "name",
+            "label": "name",
+            "default" : "98% Natural Ingredients, 100% Made in Switzerland"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "title",
+            "default" : "Inspired by Nature, Backed by Science"
+        },
+        {
+            "type": "url",
+            "id": "url",
+            "label": "url"
+            
+        },
+       {
+            "type": "text",
+            "id": "btn-name",
+            "label": "btn-name",
+            "default" : "LEARN MORE"
+        
+        }
+      
+    ],
+   
+     "presets": [
+    {
+      "name": "Section before-after"
+    }
+  ]
+  }
+{% endschema %}

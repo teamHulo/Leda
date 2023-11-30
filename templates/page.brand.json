@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "OUR HAIR IS THE STORYLINE OF OUR LIVES",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--secondary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "469c5a1f-5984-46f4-9d40-45ecffec2d75": {
+      "type": "section-double",
+      "blocks": {
+        "template--16124216115374__469c5a1f-5984-46f4-9d40-45ecffec2d75-16881237223fd062d0-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>Our hair is the storyline of our lives.<br\/>Woven from the first locks our hair.<\/p><p>A whisper of our past experiences,<br\/>a trace of our heritage.<\/p><p>A  thread connecting present moments to our dreams, to who we dare to become.<\/p><p>We grow to create our own story mirrored in each strand of hair.<\/p><p>It is you who decides your journey.<br\/>Your hair is the storyline of your life.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16124216115374__469c5a1f-5984-46f4-9d40-45ecffec2d75-16881237223fd062d0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-hair-storyline_dfe9f82f-7b71-414b-9efa-702b1bffa557.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "Brand essence",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--secondary",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16124216115374__469c5a1f-5984-46f4-9d40-45ecffec2d75-16881237223fd062d0-0",
+        "template--16124216115374__469c5a1f-5984-46f4-9d40-45ecffec2d75-16881237223fd062d0-1"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "40066887-d170-4799-828e-87a702c3c3de": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16124216115374__40066887-d170-4799-828e-87a702c3c3de-1688125762189aead9-1": {
+          "type": "heading",
+          "settings": {
+            "title": "LEDA Swiss—THE HERITAGE OF A BRAND NAME",
+            "text_size": 7
+          }
+        },
+        "template--16124216115374__40066887-d170-4799-828e-87a702c3c3de-1688125762189aead9-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Leda [lee-dah] is a name of Greek origin « Λήδα » meaning « happy ». In classical Greek mythology, LEDA was a great beauty and the mother of Helen of Troy.<br\/><br\/>Embrace the true beauty of your hair with the joy of LEDA Swiss hair care.<\/p>",
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--16124216115374__40066887-d170-4799-828e-87a702c3c3de-1688125762189aead9-1",
+        "template--16124216115374__40066887-d170-4799-828e-87a702c3c3de-1688125762189aead9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC8122_fb7030a9-c8b0-426d-b0c9-4ee222ca7971.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--secondary",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "469c5a1f-5984-46f4-9d40-45ecffec2d75",
+    "40066887-d170-4799-828e-87a702c3c3de"
+  ]
+}

@@ -1,0 +1,62 @@
+<div class="section-meet-about">
+  <div class="container">
+    <div class="section-meet-about-body">
+       <div class="name">
+            <span>
+              {{section.settings.name}}
+            </span>
+      </div>
+      <div class="section-meet__wrap">
+      
+        <div class="meet-info">
+          <div class="title">
+            <h2>
+              {{section.settings.title}}
+            </h2>
+          </div>
+          <div class="small-text">
+            {{section.settings.text}}
+          </div>
+        </div>
+          <div class="meet-image">
+          <img src="{{section.settings.img | img_url: 'master'}}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Section product-about",
+    "settings": [
+         {
+        "type":"text",
+        "id":"name",
+        "label":"name"
+      },
+       {
+          "type":"image_picker",
+          "id":"img",
+          "label":"image"
+       },
+       {
+        "type":"text",
+        "id":"title",
+        "label":"title"
+      },
+      {
+        "type":"richtext",
+        "id":"text",
+        "label":"text"
+      }
+    ],
+     "presets": [
+      {
+        "name": "product-about"
+      }
+    ]
+  }
+{% endschema %}

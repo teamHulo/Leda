@@ -1,0 +1,33 @@
+  <div class="multiselect">
+    {%- form 'localization', class: 'lang-glob', id: 'localization-form' -%}
+      <div class="select-lang-wrap">
+          <select name="language_code" id="lang" class="lang">
+             {% for language in localization.available_languages %}
+               {% if  language.iso_code == 'en' or language.iso_code == 'de' or language.iso_code == 'fr'%}
+                  <option value="{{ language.iso_code }}">{{ language.endonym_name }}</option>
+               {% endif %}
+            {%- endfor -%}
+          </select>
+      </div>
+      <div class="select-currecy-wrap">
+         <select name="country_code" id="currency">
+           {% for country in localization.available_countries %}
+             {% if  country.iso_code == 'US' or country.iso_code == 'DE' or country.iso_code == 'CH'  or country.iso_code == 'GB' or country.iso_code == 'AT'%}
+              <option data-currency="{{ country.iso_code }}" dt="{{  country.currency.code }}" value="{{ country.iso_code }}"> {{ country.name }} ({{ country.iso_code }} {{ country.currency.symbol }})</option>
+              {% endif %}
+            {% endfor %}
+          </select>
+        
+           {% comment %} {% form 'currency' %}
+            {{ form | currency_selector }}
+          {% endform %}{% endcomment %}
+
+
+        
+      </div>
+    
+      <div class="btn-apply">
+        <button  class="a-btn multiselect-btn"> Apply</button>
+      </div>
+    {%- endform -%}
+</div>

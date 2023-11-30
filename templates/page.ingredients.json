@@ -1,0 +1,364 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--primary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "07a3a76f-83e1-4dfc-b174-2001327f3b44": {
+      "type": "my-hero",
+      "settings": {
+        "img_bg": "shopify:\/\/shop_images\/pexels-arsham-haghani-3445219_1_252fb068-5053-46e7-861d-0c855e8e8cc2.jpg",
+        "name": "98% NATURAL HAIR CARE ELEVATED BY CLINICAL RESEARCH",
+        "title": "The Finest Ingredients Nature Has to Offer",
+        "text": "",
+        "text_2": "",
+        "url": "shopify:\/\/collections\/all",
+        "btn_name": "SHOP now"
+      }
+    },
+    "13481c8c-7d81-496f-b267-be3d538a92ef": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1858126e-a96b-4081-a7e9-3bd60e174cb8": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<h3><strong>Holistic Harmony in Hair Care<\/strong><\/h3><p>Hair's vitality may weaken under the pressures of daily life, resulting in breakage, dullness, brittleness, dryness, and tangles. These are much more than aesthetic concerns; they can be signs of underlying damage. LEDA Swiss invites you to a transformative journey of care, blending plant-based ingredients with vegan bioactives, for a comprehensive embrace of your hair's true essence.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "69e63348-0d00-4139-a688-247032cecfbc": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<h3><strong>Innovation with an Artistic Touch<\/strong><\/h3><p>LEDA Swiss transcends the ordinary, infusing our formulas with innovative vegan bioactives that meet the rigorous clean beauty standards. Alongside, we harmonise oils celebrated for their rich, nutrient-dense profiles. This alchemy not only elevates hair condition and styling grace but also reflects our commitment to a beauty experience that resonates with nature's sophistication and balance.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#f3f3f3"
+          }
+        }
+      },
+      "block_order": [
+        "1858126e-a96b-4081-a7e9-3bd60e174cb8",
+        "69e63348-0d00-4139-a688-247032cecfbc"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#ffffff",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2c1051c2-f510-478a-be76-f08559d8479c": {
+      "type": "section-custom-content",
+      "blocks": {
+        "21265a17-6330-4a96-8986-5c8784b3efa9": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<h3><strong>Plant-Derived Keratin<\/strong><\/h3><p><strong>A Gentle Embrace. <\/strong>We use an innovative and unique Vegan Keratin, thoughtfully derived from plants, mirrors the benefits of conventional keratin. A unique blend of high-protein quinoa, lentil, and chickpea peptides offers an elegant solution to hair hydration, smoothing, and  smoothing frizz. This formulation respects both your hair's integrity and the earth's, being non-GMO and gluten-free.<\/p><h3><strong>Vegan Emollient<\/strong><\/h3><p><strong>Repair with Grace. <\/strong>Our Vegan Emollient goes beyond function, offering a highly effective, yet gentle means to restore hair weakened by heat styling and coloring. This potent ingredient resembles the Cell Membrane Complex (CMC), a vital substance found between the cortical cells in the intercuticle cortex. More than a treatment, it's an ode to hair's natural condition and a delicate invitation to true health and beauty.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "f15cc4cc-3d70-4b02-bd45-722b9d0bdacf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_78.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "21265a17-6330-4a96-8986-5c8784b3efa9",
+        "f15cc4cc-3d70-4b02-bd45-722b9d0bdacf"
+      ],
+      "settings": {
+        "height": "use_pixels_650",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#f3f3f3",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2abe4206-10ab-43a2-b60f-fcc4194842fd": {
+      "type": "section-custom-column",
+      "blocks": {
+        "196886a9-c328-4c5b-83b2-1f14aa14bdc3": {
+          "type": "item",
+          "settings": {
+            "item_bg_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/organic-rhododendron-ferrugineum-ingredient.jpg",
+            "kicker": " Enhances hair elasticity and strength, imparting resilience",
+            "title": "Alpenrose",
+            "text": "<p><strong>Scientific Term<\/strong>: Rhododendron Ferrugineum<br\/><br\/><strong>Rich in<\/strong>: Flavonoids, volatile oils, tannins<\/p>",
+            "padding_x": 36,
+            "padding_y": 24
+          }
+        },
+        "23c93cf3-4c94-4d84-aa68-87fa0353dc32": {
+          "type": "item",
+          "settings": {
+            "item_bg_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/calendula-officinalis-asteraceae-ingredient.jpg",
+            "kicker": "Reduces frizz, calms split-ends, protects hair, smoothens",
+            "title": "Marigold",
+            "text": "<p><strong>Scientific Term<\/strong>: Calendula Officinalis Asteraceae<br\/><br\/><strong>Rich in<\/strong>: Emollients, anti-inflammatory and antioxidant compounds<\/p>",
+            "padding_x": 36,
+            "padding_y": 36
+          }
+        },
+        "b1752d31-3328-488b-a5ef-2f5bd59ffb1d": {
+          "type": "item",
+          "settings": {
+            "item_bg_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/equisetum-arvense-ingredient.jpg",
+            "kicker": "Fosters healthy, strong hair growth, adds vigor and vitality",
+            "title": "Horsetail",
+            "text": "<p><strong>Scientific Term<\/strong>: Equisetum Arvense<br\/><br\/><strong>Rich in<\/strong>: Minerals such as silicic acid, aluminum, potassium chloride, manganese; tannins, flavonoids<\/p>",
+            "padding_x": 36,
+            "padding_y": 36
+          }
+        }
+      },
+      "block_order": [
+        "196886a9-c328-4c5b-83b2-1f14aa14bdc3",
+        "23c93cf3-4c94-4d84-aa68-87fa0353dc32",
+        "b1752d31-3328-488b-a5ef-2f5bd59ffb1d"
+      ],
+      "settings": {
+        "name": "Swiss Plant Essence: A Symphony of Purity",
+        "width": "wrapper",
+        "bg_color": "#00463f",
+        "padding_top": 36,
+        "padding_bottom": 100,
+        "gap": 12
+      }
+    },
+    "d02f0b6d-6652-445d-9774-8abdb0817519": {
+      "type": "mysection-icons",
+      "blocks": {
+        "48033d0f-afbe-4219-ae92-8967b1b33b10": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_5.png",
+            "text": "98% Natural original ingredients"
+          }
+        },
+        "21080b82-3d07-4c70-ac49-d760fd6bbcd9": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_6.png",
+            "text": "organic swiss plant extract"
+          }
+        },
+        "6838fd40-377d-440f-a1d6-a9fd01072f1c": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_7.png",
+            "text": "independently safety tested"
+          }
+        },
+        "bb51acda-0b25-459f-a82e-8cd43db3e9ae": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vector_8.png",
+            "text": "cruelty free"
+          }
+        },
+        "e4d92b23-48cd-4d71-818d-67bf539620d9": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/OBJECTS_1.png",
+            "text": "vegan"
+          }
+        },
+        "1c01ee52-08c6-4721-ae7f-2680c01ac07f": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Group_19_2.png",
+            "text": "made in switzerland"
+          }
+        }
+      },
+      "block_order": [
+        "48033d0f-afbe-4219-ae92-8967b1b33b10",
+        "21080b82-3d07-4c70-ac49-d760fd6bbcd9",
+        "6838fd40-377d-440f-a1d6-a9fd01072f1c",
+        "bb51acda-0b25-459f-a82e-8cd43db3e9ae",
+        "e4d92b23-48cd-4d71-818d-67bf539620d9",
+        "1c01ee52-08c6-4721-ae7f-2680c01ac07f"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#00463f"
+      }
+    },
+    "d7cb8550-37aa-4a7e-85ad-ff64f1368b31": {
+      "type": "my-hero",
+      "settings": {
+        "img_bg": "shopify:\/\/shop_images\/sharon-pittaway-4_hFxTsmaO4-unsplash_copy_1_1.png",
+        "name": "",
+        "title": "Organic Natural Oils",
+        "text": "",
+        "text_2": "LEDA Swiss blends carefully selected organic natural oils, each chosen for their specific nourishing properties, to provide both hair and scalp with gentle care and protection.",
+        "url": "",
+        "btn_name": ""
+      }
+    },
+    "e1534ad0-e68f-48aa-840b-cfc1a7789279": {
+      "type": "section-collection-icons",
+      "blocks": {
+        "45fb178e-c397-4b05-bcf5-79a5ea3308da": {
+          "type": "icon",
+          "settings": {
+            "color": "#00463f",
+            "image": "shopify:\/\/shop_images\/icon-argan-oil.png",
+            "title": "Argan Oil",
+            "text": "<p><strong>A Protective Embrace for Hair.<\/strong><\/p><p>Argan oil, renowned for its qualities, aids in shielding hair from dryness, elegantly reducing frizz.<\/p>"
+          }
+        },
+        "0bec2563-fcd0-4e69-8b4b-ebe4e2322e77": {
+          "type": "icon",
+          "settings": {
+            "color": "#00463f",
+            "image": "shopify:\/\/shop_images\/icon-jojoba-oil.png",
+            "title": "Jojoba Oil",
+            "text": "<p><strong>A Soothing Balm for Scalp Care.<\/strong><\/p><p>Jojoba oil offers a tender solution to common scalp concerns, including dandruff, dryness, and itchiness.<\/p>"
+          }
+        },
+        "5cb78ea4-7458-402d-9254-f4aaf2ab8b83": {
+          "type": "icon",
+          "settings": {
+            "color": "#00463f",
+            "image": "shopify:\/\/shop_images\/icon-avocado-oil.png",
+            "title": "Avocado Oil",
+            "text": "<p><strong>Sealing, Moisturising, and Strengthening.<\/strong><\/p><p>Avocado oil's delicate embrace helps seal and moisturize cuticle cells, fortifying their natural beauty.<\/p>"
+          }
+        },
+        "dddf2908-cca1-4bf2-a319-cb000055098e": {
+          "type": "icon",
+          "settings": {
+            "color": "#00463f",
+            "image": "shopify:\/\/shop_images\/icon-apricot-kernel-oil.png",
+            "title": "Apricot Kernel Oil",
+            "text": "<p><strong>A Soft Touch for Volume and Shine.<\/strong><\/p><p>The gentle caress of Apricot Kernel oil brings softness to your hair, enhancing volume and bestowing a lustrous shine.<\/p>"
+          }
+        },
+        "632cf46a-0217-478e-a646-ed65d58819bb": {
+          "type": "icon",
+          "settings": {
+            "color": "#00463f",
+            "image": "shopify:\/\/shop_images\/icon-cocoa-seed-butter.png",
+            "title": "Mango Butter",
+            "text": "<p><strong>Intense hydration and hair growth.<br\/><\/strong>The vitamin-rich mango butter provides moisture, promotes hair growth and protects hair<br\/>from UV rays.<\/p>"
+          }
+        },
+        "0b63b372-b7fd-453f-913c-a536448aaebb": {
+          "type": "icon",
+          "settings": {
+            "color": "#00463f",
+            "image": "shopify:\/\/shop_images\/icon-organic-shea-butter.png",
+            "title": "Organic Shea Butter",
+            "text": "<p><strong>Smoothness and Sheen.<\/strong><\/p><p>Shea Butter's rich texture helps to smooth flyaway ends and adds a gentle sheen, reflecting the elegance of natural care.<\/p>"
+          }
+        },
+        "934d7de7-a770-4c62-b95c-1adfdde25e5f": {
+          "type": "icon",
+          "settings": {
+            "color": "#00463f",
+            "image": "shopify:\/\/shop_images\/icon-swiss-plant-extracts.png",
+            "title": "Swiss Plant Extracts",
+            "text": "<p><strong>Pure Nutrient Infusion.<\/strong><\/p><p>Swiss Plant Extracts enhance Leda Swiss products with nature's richness, minimizing artificial additives.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "45fb178e-c397-4b05-bcf5-79a5ea3308da",
+        "0bec2563-fcd0-4e69-8b4b-ebe4e2322e77",
+        "5cb78ea4-7458-402d-9254-f4aaf2ab8b83",
+        "dddf2908-cca1-4bf2-a319-cb000055098e",
+        "632cf46a-0217-478e-a646-ed65d58819bb",
+        "0b63b372-b7fd-453f-913c-a536448aaebb",
+        "934d7de7-a770-4c62-b95c-1adfdde25e5f"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "name": "",
+        "width": "wrapper",
+        "bg_color": "",
+        "padding_top": 36,
+        "padding_bottom": 100,
+        "gap": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "07a3a76f-83e1-4dfc-b174-2001327f3b44",
+    "13481c8c-7d81-496f-b267-be3d538a92ef",
+    "2c1051c2-f510-478a-be76-f08559d8479c",
+    "2abe4206-10ab-43a2-b60f-fcc4194842fd",
+    "d02f0b6d-6652-445d-9774-8abdb0817519",
+    "d7cb8550-37aa-4a7e-85ad-ff64f1368b31",
+    "e1534ad0-e68f-48aa-840b-cfc1a7789279"
+  ]
+}

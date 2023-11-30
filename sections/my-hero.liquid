@@ -1,0 +1,83 @@
+<div class="my-banner">
+  <img class="img-bg" src="{{ section.settings.img_bg | img_url: 'master' }}" loading="lazy" height="100%" width="100%">
+  <div class="container">
+    
+    <div class="my-banner__wrap">
+        
+        <div class="name">
+          <span>
+            {{section.settings.name}}
+          </span>
+        </div>
+        <div class="title">
+          <h1>
+            {{section.settings.title}}
+          </h1>
+        </div>
+        <div class="text">
+          <p>
+            {{section.settings.text}}
+          </p>
+                    <p style="margin-top: 16px;">
+            {{section.settings.text_2}}
+          </p>
+        </div>
+        <div class="my-banner-btn">
+          <a href="{{section.settings.url}}" class="a-btn">
+            {{section.settings.btn_name}}
+          </a>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Section Banner",
+    "settings": [
+        {
+          "type":"image_picker",
+          "id" : "img_bg",
+          "label" : "img background"
+        },
+        {
+            "type": "text",
+            "id": "name",
+            "label": "name"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "text",
+            "id": "text",
+            "label": "subtitle"
+        },
+              {
+            "type": "text",
+            "id": "text_2",
+            "label": "subtitle second"
+        },
+        {
+            "type": "url",
+            "id": "url",
+            "label": "url btn"
+        },
+        {
+            "type": "text",
+            "id": "btn_name",
+            "label": "btn name"
+        }
+
+      
+    ],
+     "presets": [
+    {
+      "name": "Banner"
+    }
+  ]
+  }
+{% endschema %}

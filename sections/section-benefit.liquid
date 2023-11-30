@@ -1,0 +1,94 @@
+<div class="benefit">
+  <div class="container">
+    <div class="benefir__wrap">
+      <div class="name">
+        <span>
+          {{section.settings.name}}
+        </span>
+      </div>
+      <div class="title mobile-v">
+        <h2>
+          {{ section.settings.title }}
+        </h2>
+      </div>
+      <div class="text mobile-v">
+        <p>
+          {{ section.settings.text}}
+        </p>
+      </div>
+      <div class="benefit-list">
+        {%for block in section.blocks%}
+          <div class="benefit-item">
+            <div class="benefit-item_wrap">
+              <div class="item-img">
+                <img src="{{block.settings.img | img_url: 'master'}}" alt="">
+              </div>
+              <div class="title">
+                <h5>
+                  {{block.settings.title}}
+                </h5>
+              </div>
+              <div class="small-text">
+                <p>
+                  {{block.settings.text}}
+                </p>
+              </div>
+            </div>
+          </div>
+        {%endfor%}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Section section-benefit",
+     "settings": [
+       {
+            "type": "text",
+            "id": "name",
+            "label": "name"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "mobile title"
+         },
+         {
+            "type": "text",
+            "id": "text",
+            "label": "mobile text"
+        } 
+    ],
+    "blocks": [
+     {
+       "name": "item",
+       "type": "item",
+       "settings": [
+             {
+               "type": "image_picker",
+               "id": "img",
+               "label": "image"
+             },
+             {
+                  "type": "richtext",
+                  "id": "title",
+                  "label": "title"
+             },
+             {
+                  "type": "text",
+                  "id": "text",
+                  "label": "text"
+              }
+           ]
+         }
+    ],
+     "presets": [
+    {
+      "name": "Section section-benefit"
+    }
+  ]
+  }
+{% endschema %}

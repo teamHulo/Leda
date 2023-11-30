@@ -1,0 +1,391 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "Natural hair care elevated by clinical research",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--primary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3dddb728-7fa6-4f98-97a3-638612de60f6": {
+      "type": "section-new-hero",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Screenshot_2023-11-13_at_22.40_1.jpg",
+        "title_left": "Hair Care of 98% Natural Origins",
+        "title_right": "Elevated by swiss Clinical Research.",
+        "text": "<p>Healthy, Manageable and Vibrant Hair -<\/p><p>with only one change in your hair cair routine. Daily Spa-Level Hair Treatment, right at home.<\/p>"
+      }
+    },
+    "94ac886a-fe21-4327-847a-679cf2953a7d": {
+      "type": "section-bestandteil",
+      "blocks": {
+        "c521e9c6-cdf6-4e52-9f3c-4cc427cdd2a4": {
+          "type": "item",
+          "settings": {
+            "title": "Unlike most hair care products, we don’t use water or alcohol as fillers."
+          }
+        },
+        "4e089e7a-403f-464b-8df9-8055632ed8f0": {
+          "type": "item",
+          "settings": {
+            "title": "This means that with every use you receive a <span>highly concentrated <\/span> dose of nourishing ingredients."
+          }
+        }
+      },
+      "block_order": [
+        "c521e9c6-cdf6-4e52-9f3c-4cc427cdd2a4",
+        "4e089e7a-403f-464b-8df9-8055632ed8f0"
+      ],
+      "settings": {
+        "pb": 0,
+        "name": "Every ingredient in Leda Swiss products is there for a reason.",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/529ffea75ad641d584861de466341a72.mov"
+      }
+    },
+    "159ef955-62ca-4547-9879-5d2df7c57801": {
+      "type": "section-bezahlen",
+      "blocks": {
+        "1902155b-de4a-4873-aae7-02eeded337d8": {
+          "type": "item",
+          "settings": {
+            "title": "Only nutritional ingredients carefully selected and scientifically combined to revitalize your hair."
+          }
+        },
+        "92f88de6-0ed8-4f04-b767-2f46c9593eae": {
+          "type": "item",
+          "settings": {
+            "title": "<span>At LEDA luxury means quality, without compromises.<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "1902155b-de4a-4873-aae7-02eeded337d8",
+        "92f88de6-0ed8-4f04-b767-2f46c9593eae"
+      ],
+      "settings": {
+        "mt": -50,
+        "pb": 0,
+        "pt": 0,
+        "name": "You’re not paying for water or alcohol in your hair care.",
+        "img": "shopify:\/\/shop_images\/image_4_1.png"
+      }
+    },
+    "cec7f7c2-aaf9-4322-95b9-48fe1b5ca354": {
+      "type": "section-natural-ingredients",
+      "blocks": {
+        "5bdffd3f-ab9b-4708-be48-b17636743a94": {
+          "type": "item",
+          "settings": {
+            "name": "Apricot Kernel Oil",
+            "img": "shopify:\/\/shop_images\/Mask_group_9.png"
+          }
+        },
+        "d6af7946-9dc5-4767-b9dd-7e8d11329fd0": {
+          "type": "item",
+          "settings": {
+            "name": "Argan <br>Oil",
+            "img": "shopify:\/\/shop_images\/Mask_group_10.png"
+          }
+        },
+        "06cea01b-4469-4337-8a16-cf085e7ff6f4": {
+          "type": "item",
+          "settings": {
+            "name": "Swiss Plant Extracts",
+            "img": "shopify:\/\/shop_images\/Mask_group_11.png"
+          }
+        },
+        "591f15a8-0fdf-44d1-90df-eeeb1fd58d36": {
+          "type": "item",
+          "settings": {
+            "name": "Cocoa Seed Butter",
+            "img": "shopify:\/\/shop_images\/Mask_group_12.png"
+          }
+        },
+        "9b1dadff-97e3-4187-a3a8-f3669651970e": {
+          "type": "item",
+          "settings": {
+            "name": "Jojoba <br>Oil",
+            "img": "shopify:\/\/shop_images\/Mask_group_13.png"
+          }
+        },
+        "c2cba828-63c0-4927-8f35-be4265e5957d": {
+          "type": "item",
+          "settings": {
+            "name": "AVOCADO <br> Oil",
+            "img": "shopify:\/\/shop_images\/Mask_group_14.png"
+          }
+        },
+        "59fd37bc-a29a-467c-9222-376e6cf702bb": {
+          "type": "item",
+          "settings": {
+            "name": "Organic Shea Butter",
+            "img": "shopify:\/\/shop_images\/Mask_group_15.png"
+          }
+        }
+      },
+      "block_order": [
+        "5bdffd3f-ab9b-4708-be48-b17636743a94",
+        "d6af7946-9dc5-4767-b9dd-7e8d11329fd0",
+        "06cea01b-4469-4337-8a16-cf085e7ff6f4",
+        "591f15a8-0fdf-44d1-90df-eeeb1fd58d36",
+        "9b1dadff-97e3-4187-a3a8-f3669651970e",
+        "c2cba828-63c0-4927-8f35-be4265e5957d",
+        "59fd37bc-a29a-467c-9222-376e6cf702bb"
+      ],
+      "settings": {
+        "mt": -32,
+        "pt": 0,
+        "name": "98% of Natural Origins, Free of harmful ingredients.",
+        "title": "A uniqe formulation of Vegan Keratin, Swiss Botanical Extracts & Rich Organic Oils",
+        "img": "shopify:\/\/shop_images\/shutterstock_1675769416_1_1.png",
+        "btn_name": "Learn more about our ingredients",
+        "url": ""
+      }
+    },
+    "b9690a24-a769-4997-9af6-4bc246f71f96": {
+      "type": "section-haarpflege",
+      "blocks": {
+        "ae2cb668-e409-4377-a352-810f5bde5855": {
+          "type": "left",
+          "settings": {
+            "title": "Mesmerising Healthy Look"
+          }
+        },
+        "073d08fc-5ab4-4a1d-8685-b7504beab6d4": {
+          "type": "left",
+          "settings": {
+            "title": "Reduced Breakage"
+          }
+        },
+        "a9f26011-6817-4f68-bbca-1c6590ea34fc": {
+          "type": "left",
+          "settings": {
+            "title": "Silky Touch"
+          }
+        },
+        "7d35da3e-2680-4ca6-a047-d855ebf2b82f": {
+          "type": "left",
+          "settings": {
+            "title": "Vibrant Shine"
+          }
+        },
+        "936ec165-07f3-4f84-af2e-9812de0b34f3": {
+          "type": "right",
+          "settings": {
+            "title": "Healthy Scalp"
+          }
+        },
+        "e03fdae5-d26c-4c7a-bd6d-4d0a8054d363": {
+          "type": "right",
+          "settings": {
+            "title": "Less Hair Loss"
+          }
+        },
+        "17b780a1-b013-47b0-b2b8-14a6a05226c6": {
+          "type": "right",
+          "settings": {
+            "title": "Manageable hair"
+          }
+        },
+        "7772aec2-c0b6-48d7-a68a-51a55223f57b": {
+          "type": "right",
+          "settings": {
+            "title": "Simplified Care Routine"
+          }
+        }
+      },
+      "block_order": [
+        "ae2cb668-e409-4377-a352-810f5bde5855",
+        "073d08fc-5ab4-4a1d-8685-b7504beab6d4",
+        "a9f26011-6817-4f68-bbca-1c6590ea34fc",
+        "7d35da3e-2680-4ca6-a047-d855ebf2b82f",
+        "936ec165-07f3-4f84-af2e-9812de0b34f3",
+        "e03fdae5-d26c-4c7a-bd6d-4d0a8054d363",
+        "17b780a1-b013-47b0-b2b8-14a6a05226c6",
+        "7772aec2-c0b6-48d7-a68a-51a55223f57b"
+      ],
+      "settings": {
+        "title": "Natural hair care that actually works.",
+        "subtitle": "",
+        "img": "shopify:\/\/shop_images\/52a92d17c32fd20e021dd16d84e5b290.png"
+      }
+    },
+    "1d8f95ce-2d95-4eb0-9fc8-f5fad6bed494": {
+      "type": "section-products-grids",
+      "blocks": {
+        "da5a60fa-c56b-4eba-8c0e-3fb62b72b963": {
+          "type": "tab",
+          "settings": {
+            "product": "duo-set-hair-care-leda-swiss"
+          }
+        },
+        "bef9644f-2b96-46be-affa-32b17d30a853": {
+          "type": "tab",
+          "settings": {
+            "product": "nourish-hair-cream-leda-swiss"
+          }
+        }
+      },
+      "block_order": [
+        "da5a60fa-c56b-4eba-8c0e-3fb62b72b963",
+        "bef9644f-2b96-46be-affa-32b17d30a853"
+      ],
+      "settings": {
+        "name": "special offer. for limited time only.",
+        "title": "Try it today and see the difference for yourself",
+        "subtitle": "All products are free from silicones, toxins, sulfates, parabens or any other harmfuls substances."
+      }
+    },
+    "828064d4-c750-4b12-b1c5-123439b9a755": {
+      "type": "section-transform",
+      "settings": {
+        "product": "nourish-hair-cream-leda-swiss",
+        "title": "Transform your hair care ritual with the powerful combination of LEDA Duo"
+      }
+    },
+    "c393cc72-1190-4882-9723-c11f39cc3102": {
+      "type": "new-our-store",
+      "settings": {
+        "name": "our story",
+        "title": "Result of dedication and passion for natural hair care",
+        "text": "<p>My mom’s dressing table was adorned with thick waxy lipsticks, rich creams in pots, and heavy scents in glass jars, creating a picture of glamour and elegance that has remained my inspiration. I never gave up on my love for cosmetics and desire for radiant hair.<\/p><p> Later in life, I created my own natural products free of harmful substances, which led to healthy, strong, and shiny hair. I wanted to share my invention with others which led me to over 2 years of clinical research in cooperation with the best cosmetic laboratories in Switzerland.<\/p><p> Over many years, applying their expertise with advanced techniques, our unique products were created, blending tradition with innovation.<\/p>",
+        "btn_name": "Read our Story",
+        "url": "",
+        "img": "shopify:\/\/shop_images\/Rectangle_27_8cb35d67-c378-4bb6-bc21-c1c2de884e24.jpg",
+        "author": "Sarah-Jane Bayliss",
+        "author_subtitle": "LEDA SWISS FOuNDER"
+      }
+    },
+    "c43ec978-4666-4a56-be3e-f6dd0c1d2970": {
+      "type": "section-client-store",
+      "blocks": {
+        "f1120f20-73f0-4aaa-91fd-9c65cf385c75": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_11.jpg",
+            "rating": 5,
+            "text": "I combine the Nourish Cream and Revitalise Serum, they work great when styling my hair. It looks shiny, feels smooth, and smells amazing throughout the day!",
+            "name": "SLAV, SWITZERLAND"
+          }
+        },
+        "5f1b353c-424b-4e60-93e7-a7edd5f33d24": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_11_1.jpg",
+            "rating": 5,
+            "text": "I combine the Nourish Cream and Revitalise Serum, they work great when styling my hair. It looks shiny, feels smooth, and smells amazing throughout the day!",
+            "name": "SLAV, SWITZERLAND"
+          }
+        },
+        "19ca2c21-068f-486f-92a0-fedade1c86e7": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_11_2.jpg",
+            "rating": 5,
+            "text": "I combine the Nourish Cream and Revitalise Serum, they work great when styling my hair. It looks shiny, feels smooth, and smells amazing throughout the day!",
+            "name": "SLAV, SWITZERLAND"
+          }
+        }
+      },
+      "block_order": [
+        "f1120f20-73f0-4aaa-91fd-9c65cf385c75",
+        "5f1b353c-424b-4e60-93e7-a7edd5f33d24",
+        "19ca2c21-068f-486f-92a0-fedade1c86e7"
+      ],
+      "settings": {
+        "name": "PROVEN RESULTS",
+        "title": "Client Stories"
+      }
+    },
+    "31d9107d-2a63-4287-aa41-5d5918b7109a": {
+      "type": "section-new-tab",
+      "blocks": {
+        "3fdde4ae-935a-4055-bd00-a706ea612ea5": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "How do I use LEDA Swiss products for optimal results?",
+            "text": "<p>For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!<\/p>"
+          }
+        },
+        "dfa9beb9-9135-4b5f-b828-c9b48a8c822c": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Are LEDA Swiss products safe for all hair types and textures?",
+            "text": "<p>For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!<\/p>"
+          }
+        },
+        "0f85e79e-a16d-4f6c-9084-44e837a3bbce": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Will these products suit my sensitive scalp?",
+            "text": "<p>For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!<\/p>"
+          }
+        },
+        "bf79898f-f779-49c0-b139-a53b7e5a0fb3": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "How long will it take to see improvements in my hair's condition?",
+            "text": "<p>For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!<\/p>"
+          }
+        },
+        "d27584d9-4450-43e0-ad4a-012eaec794a2": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Is LEDA Swiss environmentally friendly and ethical?",
+            "text": "<p>For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!<\/p>"
+          }
+        },
+        "de4c6f72-43a0-4b5d-9e2c-c272f798b497": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "How should I integrate LEDA Swiss products into my existing hair care routine?",
+            "text": "<p>For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!<\/p>"
+          }
+        },
+        "6507195e-ad5f-40a4-bf12-a3adf39902c4": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Can I use these products on my child's hair?",
+            "text": "<p>For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!For best results, apply a small amount of Revitalise Serum to damp hair from roots to ends and style as usual. Use Nourish Cream on towel-dried hair for deep conditioning, or as a leave-in treatment to protect and smooth. Remember, a little goes a long way!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3fdde4ae-935a-4055-bd00-a706ea612ea5",
+        "dfa9beb9-9135-4b5f-b828-c9b48a8c822c",
+        "0f85e79e-a16d-4f6c-9084-44e837a3bbce",
+        "bf79898f-f779-49c0-b139-a53b7e5a0fb3",
+        "d27584d9-4450-43e0-ad4a-012eaec794a2",
+        "de4c6f72-43a0-4b5d-9e2c-c272f798b497",
+        "6507195e-ad5f-40a4-bf12-a3adf39902c4"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3dddb728-7fa6-4f98-97a3-638612de60f6",
+    "94ac886a-fe21-4327-847a-679cf2953a7d",
+    "159ef955-62ca-4547-9879-5d2df7c57801",
+    "cec7f7c2-aaf9-4322-95b9-48fe1b5ca354",
+    "b9690a24-a769-4997-9af6-4bc246f71f96",
+    "1d8f95ce-2d95-4eb0-9fc8-f5fad6bed494",
+    "828064d4-c750-4b12-b1c5-123439b9a755",
+    "c393cc72-1190-4882-9723-c11f39cc3102",
+    "c43ec978-4666-4a56-be3e-f6dd0c1d2970",
+    "31d9107d-2a63-4287-aa41-5d5918b7109a"
+  ]
+}

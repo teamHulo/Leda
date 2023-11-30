@@ -1,0 +1,371 @@
+<style>
+  #shopify-section-{{ section.id }} .square {
+    {% if section.settings.padding_top %}
+      padding-top: {{ section.settings.padding_top }}px;
+    {% endif %}
+    {% if section.settings.padding_bottom %}
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    {% endif %}
+  }
+  #shopify-section-{{ section.id }} .square__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  @media(max-width:767px) {
+    #shopify-section-{{ section.id }} .square__wrapper {
+      grid-template-columns: 1fr;
+      margin-bottom: 20px;
+    }
+    #shopify-section-{{ section.id }} section {
+      background-color: #F3F3F3;
+    }
+    #shopify-section-{{ section.id }} .item {
+      padding-top: 20px;
+      background-color: unset !important;
+    }
+    #shopify-section-{{ section.id }} .item.image-section {
+  display: none;
+    }
+    #shopify-section-{{ section.id }} .subitem:nth-child(2) {
+      margin-top: 20px !important;
+    }
+  }
+
+  #shopify-section-{{ section.id }} .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #shopify-section-{{ section.id }} .item__wrap_text {
+    margin: 0 auto;
+  }
+  #shopify-section-{{ section.id }} .item__wrap_text .product__title {
+    margin-bottom: 16px;
+  }
+  #shopify-section-{{ section.id }} .item__wrap_text p:not(.product__title) {
+    font-family: HarmoniaSansW01-Regular;
+    font-size: clamp(15px, 1.042vw, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.28px;
+  }
+  #shopify-section-{{ section.id }} .subitem:nth-child(2) {
+    margin-top: 60px;
+  }
+
+  #shopify-section-{{ section.id }} .item img {
+    width: 100%;
+  }
+  {% for item in section.blocks %}
+    .square .item-{{ forloop.index }}{
+      background-color: {{ item.settings.item_bg_color }};
+      padding: {{ item.settings.padding }}px;
+        padding-left: {{ item.settings.padding_left }}px;
+        padding-right: {{ item.settings.padding_right }}px;
+    }
+    .square .item-{{ forloop.index }} p {
+      color: {{ item.settings.item_text_color }};
+    }
+    .square .item-{{ forloop.index }} .item__wrap {
+      max-width: {{ item.settings.max_width }}px;
+    }
+
+  {% endfor %}
+</style>
+
+<section data-section-id="{{ section.id }}">
+  <div class="{{ section.settings.width }} {% if section.settings.timeline %}timeline-styles{% endif %}">
+    <div class="square">
+      <div class="square__wrapper">
+        {% for block in section.blocks %}
+          {% if block.type == 'image' %}
+            <div class="item item-{{ forloop.index }} image-section">
+            <div class="center-line {% if block.settings.right_timeline %}timeline-right{% else %}lorem{% endif %}"><p>{{ block.settings.line_title }}</p></div>
+              <div class="item__wrap">
+                <img src="{{block.settings.image | img_url: 'master'}}" alt="">
+              </div>
+            </div>
+          {% elsif block.type == 'text' %}
+            <div class="item item-{{ forloop.index }}">
+
+              <div class="mobile-top">
+            <div class="center-line {% if block.settings.right_timeline %}timeline-right{% else %}lorem{% endif %}"><p>{{ block.settings.line_title }}</p></div>
+              <div class="item__wrap_mob">
+                <img src="{{block.settings.image_mob | img_url: 'master'}}" alt="">
+              </div>
+              </div>
+              
+              <div class="item__wrap item__wrap_text">
+                <p class="product__title">{{ block.settings.title }}</p>
+                <p>{{ block.settings.richtext }}</p>
+              </div>
+            </div>
+          {% elsif block.type == 'dbtext' %}
+            <div class="item item-{{ forloop.index }}">
+              <div class="item__wrap item__wrap_text">
+                <div class="subitem">
+                  <p class="product__title">{{ block.settings.dbtitle1 }}</p>
+                  <p>{{ block.settings.dbrichtext1 }}</p>
+                </div>
+                <div class="subitem">
+                  <p class="product__title">{{ block.settings.dbtitle2 }}</p>
+                  <p>{{ block.settings.dbrichtext2 }}</p>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Custom square",
+    "settings": [
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          {
+            "value": "wrapper--none",
+            "label": "Full width"
+          },
+          {
+            "value": "wrapper--full",
+            "label": "Full width padded"
+          },
+          {
+            "value": "wrapper",
+            "label": "Page width"
+          },
+          {
+            "value": "wrapper--narrow",
+            "label": "Page width narrow"
+          }, {
+            "value": "wrapper--tiny",
+            "label": "Page width extra narrow"
+          }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background"
+      },
+            {
+        "type": "checkbox",
+        "id": "timeline",
+        "label": "Timeline enable"
+      },
+      {
+        "type": "range",
+        "id": "max_width",
+        "min": 600,
+        "max": 2000,
+        "step": 100,
+        "unit": "px",
+        "label": "Max width",
+        "default": 1200
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "range",
+            "id": "padding",
+            "min": 0,
+            "max": 75,
+            "step": 1,
+            "unit": "px",
+            "label": "Padding",
+            "default": 0
+          },
+                                        {
+            "type": "range",
+            "id": "padding_left",
+            "min": 0,
+            "max": 150,
+            "step": 2,
+            "unit": "px",
+            "label": "Padding Left",
+            "default": 0
+          },
+                    {
+            "type": "range",
+            "id": "padding_right",
+            "min": 0,
+            "max": 150,
+            "step": 2,
+            "unit": "px",
+            "label": "Padding Right",
+            "default": 0
+          },
+                    {
+            "type": "text",
+            "id": "line_title",
+            "label": "Line Title"
+          },
+                      {
+        "type": "checkbox",
+        "id": "right_timeline",
+        "label": "Timeline right"
+      }
+        ]
+      }, {
+        "type": "text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "range",
+            "id": "max_width",
+            "min": 300,
+            "max": 1000,
+            "step": 10,
+            "unit": "px",
+            "label": "Max width",
+            "default": 300
+          },
+          {
+            "type": "range",
+            "id": "padding",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Padding",
+            "default": 0
+          },
+                              {
+            "type": "range",
+            "id": "padding_left",
+            "min": 0,
+            "max": 150,
+            "step": 2,
+            "unit": "px",
+            "label": "Padding Left",
+            "default": 0
+          },
+                    {
+            "type": "range",
+            "id": "padding_right",
+            "min": 0,
+            "max": 150,
+            "step": 2,
+            "unit": "px",
+            "label": "Padding Right",
+            "default": 0
+          },
+          {
+            "type": "color",
+            "id": "item_bg_color",
+            "label": "Background"
+          },
+          {
+            "type": "color",
+            "id": "item_text_color",
+            "label": "Background"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }, {
+            "type": "richtext",
+            "id": "richtext",
+            "label": "Text"
+          },
+                  {
+            "type": "image_picker",
+            "id": "image_mob",
+            "label": "Image for mobile"
+          },
+                              {
+            "type": "text",
+            "id": "line_title",
+            "label": "Line Title mobile"
+          }
+        ]
+      }, {
+        "type": "dbtext",
+        "name": "Double text",
+        "settings": [
+          {
+            "type": "range",
+            "id": "max_width",
+            "min": 300,
+            "max": 1000,
+            "step": 10,
+            "unit": "px",
+            "label": "Max width",
+            "default": 300
+          },
+          {
+            "type": "color",
+            "id": "item_bg_color",
+            "label": "Background"
+          },
+          {
+            "type": "color",
+            "id": "item_text_color",
+            "label": "Background"
+          },
+          {
+            "type": "text",
+            "id": "dbtitle1",
+            "label": "Title"
+          }, {
+            "type": "richtext",
+            "id": "dbrichtext1",
+            "label": "Text"
+          }, {
+            "type": "text",
+            "id": "dbtitle2",
+            "label": "Title"
+          }, {
+            "type": "richtext",
+            "id": "dbrichtext2",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom square"
+      }
+    ]
+  }
+{% endschema %}

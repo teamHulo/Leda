@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "Contact Us",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 9,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--secondary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "0ecf2759-4e15-446e-b971-51c3f8b0b297": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16123289731246__0ecf2759-4e15-446e-b971-51c3f8b0b297-1688381405d3463a04-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For enquiries or assistance, please select a communication channel below to contact our team.<\/p><p>You can also <a href=\"\/pages\/faqs\" title=\"Frequently Asked Questions\">consult the FAQs<\/a>.<\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289731246__0ecf2759-4e15-446e-b971-51c3f8b0b297-1688381405d3463a04-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 70,
+        "padding_bottom": 36
+      }
+    },
+    "0b42aac1-9322-43ea-bc35-4ea6285b7125": {
+      "type": "section-custom-content",
+      "blocks": {
+        "9220e965-f762-411d-a1ee-2811a373acc2": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Email",
+            "text": "<p>Please send a message to <a href=\"mailto:hello@ledaswiss.com\" title=\"mailto:hello@ledaswiss.com\">hello@ledaswiss.com<\/a> we will reply to you as soon as possible. Or complete the web form below.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f5f4"
+          }
+        },
+        "09da5509-e6b4-4843-8fd0-f69a3e81ae61": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Consult the FAQs",
+            "text": "<p>You can <a href=\"\/pages\/faqs\" title=\"Frequently Asked Questions\">consult the FAQs<\/a> to find out about shipping, how to use our products and discover other helpful information to answer your question.<\/p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f5f4"
+          }
+        }
+      },
+      "block_order": [
+        "9220e965-f762-411d-a1ee-2811a373acc2",
+        "09da5509-e6b4-4843-8fd0-f69a3e81ae61"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": true,
+        "bg_color": "rgba(0,0,0,0)",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c94fab6c-2e73-40da-bb3a-5722d091d52d": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/made-in-switzerland.webp",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "038eaff5-37d4-4060-8971-2416290c6009": {
+      "type": "section-icons",
+      "blocks": {
+        "template--16123289731246__038eaff5-37d4-4060-8971-2416290c6009-1688381742d6064095-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_color": "#ffffff",
+            "title": "VOICE MESSAGE",
+            "text": "<p>Please leave a vocal recording with your preferred contact details by phone, messenger or email. We will respond as soon as possible.<br\/><br\/>☎︎ <a href=\"tel:+41215882109\" title=\"tel:+41215882109\">+41 21 588 21 09<\/a><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--16123289731246__038eaff5-37d4-4060-8971-2416290c6009-1688381742d6064095-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-support-headphones",
+            "icon_color": "#00463f",
+            "title": "Languages",
+            "text": "<p>We communicate in English, French, German and Italian.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--16123289731246__038eaff5-37d4-4060-8971-2416290c6009-1688381742d6064095-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#00463f",
+            "title": "Virtual Consultation",
+            "text": "<p>Discover LEDA Swiss hair care. We are delighted to help you learn how to use them for your hair type. To request an appointment complete the form below or contact us at <a href=\"mailto:hello@ledaswiss.com\" title=\"mailto:hello@ledaswiss.com\">hello@ledaswiss.com<\/a>.<\/p><p>*Appointments are subject to availability and not guaranteed.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "6e0bb69a-c162-48e8-83ac-6b23491e68da": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-rating",
+            "icon_color": "#00463f",
+            "title": "Social",
+            "text": "<p>Find us on:<br\/><a href=\"https:\/\/www.facebook.com\/ledaswiss\/\" title=\"https:\/\/www.facebook.com\/ledaswiss\/\">Facebook<\/a><br\/><a href=\"https:\/\/www.instagram.com\/ledaswiss\" title=\"https:\/\/www.instagram.com\/ledaswiss\">Instagram<\/a><br\/><a href=\"https:\/\/www.linkedin.com\/company\/leda-swiss\" title=\"https:\/\/www.linkedin.com\/company\/leda-swiss\">Linkedin<\/a><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16123289731246__038eaff5-37d4-4060-8971-2416290c6009-1688381742d6064095-0",
+        "template--16123289731246__038eaff5-37d4-4060-8971-2416290c6009-1688381742d6064095-1",
+        "template--16123289731246__038eaff5-37d4-4060-8971-2416290c6009-1688381742d6064095-2",
+        "6e0bb69a-c162-48e8-83ac-6b23491e68da"
+      ],
+      "settings": {
+        "title": "Channels",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0ecf2759-4e15-446e-b971-51c3f8b0b297",
+    "0b42aac1-9322-43ea-bc35-4ea6285b7125",
+    "c94fab6c-2e73-40da-bb3a-5722d091d52d",
+    "038eaff5-37d4-4060-8971-2416290c6009"
+  ]
+}

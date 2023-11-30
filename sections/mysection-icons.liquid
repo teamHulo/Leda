@@ -1,0 +1,67 @@
+<div class="section-icon" style="background:{{ section.settings.bg_color }}">
+  <div class="container">
+    <div class="section-icon__wrap">
+      <div class="icon-items">
+        {%for block in section.blocks %}
+          <div class="icon-item">
+            <div class="icon-item__wrap">
+              <div class="section-icon-img">
+                <img src="{{block.settings.img |img_url: 'master'}}" alt="#">
+              </div>
+              <div class="small-text">
+                <p style="color:{{ section.settings.text_color }}">
+                  {{block.settings.text}}
+                </p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Section icons",
+     "settings": [
+        {
+               "type": "color",
+               "id": "bg_color",
+               "label": "background color",
+               "default":"#00463F"
+        },
+        {
+               "type": "color",
+               "id": "text_color",
+               "label": "text color",
+               "default":"#FFFFFF"
+        }
+    ],
+    
+    "blocks": [
+     {
+       "name": "item",
+       "type": "item",
+       "settings": [
+             {
+               "type": "image_picker",
+               "id": "img",
+               "label": "Image"
+             },
+             {
+               "type": "text",
+               "id": "text",
+               "label": "label"
+             }
+           ]
+         }
+    ],
+     "presets": [
+    {
+      "name": "Section icons"
+    }
+  ]
+  }
+{% endschema %}
+

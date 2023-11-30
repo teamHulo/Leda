@@ -1,0 +1,70 @@
+<div class="ingredients">
+  <img src="{{section.settings.bg | img_url: 'master'}}" alt="">
+  <div class="container">
+    
+    <div class="ingredients__wrap">
+      <div class="name">
+        <span>
+          {{section.settings.name}}
+        </span>
+      </div>
+      <div class="title h2">
+        <h2>
+          {{section.settings.title}}
+        </h2>
+      </div>
+      <div class="text">
+        <p>
+          {{section.settings.text}}
+        </p>
+      </div>
+      <div class="ingredients-btn">
+        <a href="{{section.settings.url}}" class="a-btn">{{section.settings.btn_name}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Section ingredients",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"bg",
+        "label":"image bg"
+      },
+      {
+        "type":"text",
+        "id":"name",
+        "label":"name"
+      },
+       {
+        "type":"text",
+        "id":"title",
+        "label":"title"
+      },
+      {
+        "type":"text",
+        "id":"text",
+        "label":"subtitle"
+      },
+      {
+        "type":"url",
+        "id":"url",
+        "label":"url button"
+      },
+       {
+        "type":"text",
+        "id":"btn_name",
+        "label":"name button"
+      }
+    ],
+     "presets": [
+      {
+        "name": "Section ingredients"
+      }
+    ]
+  }
+{% endschema %}

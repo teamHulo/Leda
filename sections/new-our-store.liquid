@@ -1,0 +1,101 @@
+ <div class="new-our-store">
+      <div class="container">
+        <div class="new-our-store__wrap">
+          <div class="left">
+            <div class="left__wrap">
+              <div class="subtitle-2">
+                <p>
+                  {{section.settings.name}}
+                </p>
+              </div>
+              <div class="title">
+                <h3>
+                  {{section.settings.title}}
+                </h3>
+              </div>
+              <div class="text-1">
+                {{section.settings.text}}
+              </div>
+              <div class="new-our-btn">
+                <a href="{{ sectin.settings.url }}" class="new-a-btn"> {{ section.settings.btn_name}}</a>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="rigth__wrap">
+              <div class="image">
+                <img src="{{section.settings.img | img_url: 'master'}}" alt="" width="" height="">
+              </div>
+              <div class="subtitle-1">
+                <p>
+                  {{section.settings.author}}
+                </p>
+              </div>
+              <div class="subtitle">
+                <p>
+                  {{section.settings.author_subtitle}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+
+
+{% schema %}
+    {
+      "name": "new-our-store",
+      "settings": [
+         {
+          "type": "text",
+          "id": "name",
+          "label": "name",
+          "default":"our story"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title",
+          "default":"Result of dedication and passion for natural hair care"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "text",
+          "default":"<p>My mom’s dressing table was adorned with thick waxy lipsticks, rich creams in pots, and heavy scents in glass jars, creating a picture of glamour and elegance that has remained my inspiration. I never gave up on my love for cosmetics and desire for radiant hair.</p> <p> Later in life, I created my own natural products free of harmful substances, which led to healthy, strong, and shiny hair. I wanted to share my invention with others which led me to over 2 years of clinical research in cooperation with the best cosmetic laboratories in Switzerland.</p> <p> Over many years, applying their expertise with advanced techniques, our unique products were created, blending tradition with innovation.</p>"
+        },
+        {
+          "type": "text",
+          "id": "btn_name",
+          "label": "btn name",
+          "default":"Read our Story"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "btn url"
+        }, {
+          "type": "image_picker",
+          "id": "img",
+          "label": "image"
+        },{
+          "type": "text",
+          "id": "author",
+          "label": "author",
+          "default":"Sarah-Jane Bayliss"
+        },{
+          "type": "text",
+          "id": "author_subtitle",
+          "label": "author subtitle",
+          "default":"LEDA SWISS FOuNDER"
+        }
+      ],
+      "presets": [
+        {   
+          "name": "new-our-store"
+        }
+      ]
+    }
+  {% endschema %}

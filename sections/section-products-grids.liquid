@@ -1,0 +1,106 @@
+  <div class="section-products-grid">
+      <div class="container">
+        <div class="section-products-grid__wrap">
+          <div class="subtitle-2">
+            <p>
+              {{section.settings.name}}
+            </p>
+          </div>
+          <div class="title">
+            <h3>
+              {{section.settings.title}}
+            </h3>
+          </div>
+          <div class="text-1 sub">
+            <p>
+              {{section.settings.subtitle}}
+            </p>
+          </div>
+         <div class="products-list">
+            {% for block in section.blocks%}
+              {% assign product = block.settings.product %}
+              <div class="product">
+                <div class="product__wrap">
+                  <div class="image">
+                    <div class="image__wrap"> 
+                       <img src="{{ product.featured_image | img_url: 'master'}}" alt="" width="" height=""/>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="subtitle-1">
+                      <p>
+                        {{product.title}}
+                      </p>
+                    </div>
+                    <div class="subtitle-2">
+                      <p class="price">{{product.price | money}}</p>
+                      <p class="price_at">{{product.compare_at_price | money}}</p>
+                    </div>
+                    <div class="text-1">
+                      {{product.description}}
+                    </div>
+                     <div class="product-btn">
+                        {% comment %} {%- form 'product', product, id: product_form_id, data-product-form: '', data-product-handle: product.handle -%}
+                          <input type="hidden" class="first-variant" value="{{product.first_available_variant.id}}">
+                          <button  type="submit" name="add" class="new-a-btn my_add-btn"> Add to Cart </button>
+                      {% endform %} {% endcomment %}
+                      {% render 'product-buttons', product:product, myclass:'new-a-btn', custom:true %}
+              
+                     </div> 
+                  </div>
+                </div>
+              </div>
+            {%  endfor %}
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+{% schema %}
+    {
+      "name": "section-new-products",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "name",
+          "default":"special offer. for limited time only."
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title",
+          "default":"Try it today and see the difference for yourself"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "subtitle",
+          "default":"All products are free from silicones, toxins, sulfates, parabens or any other harmfuls substances."
+        }
+      ],
+      "blocks": [
+        {
+          "name": "tab",
+          "type": "tab",
+          "settings": [
+            {
+                "type": "product",
+                "id": "product",
+                "label": "product"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {   
+          "name": "section-new-products"
+        }
+      ]
+    }
+  {% endschema %}
+

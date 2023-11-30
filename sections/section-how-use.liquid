@@ -1,0 +1,82 @@
+<div class="how-use">
+  <div class="container">
+      <div class="how-use__wrap">
+        <div class="name">
+          <span>
+            {{ section.settings.name }}
+          </span>
+        </div>
+        <div class="swiper how-use-swiper">
+          <div class="how-use-items swiper-wrapper">
+            {%for block in section.blocks%}
+              <div class="how-use-item swiper-slide">
+                <div class="how-use-item__wrap">
+                  <div class="how-use-item-img">
+                    <img src="{{block.settings.img | img_url : 'master'}}" alt="">
+                  </div>
+                  <div class="how-use-item-content">
+                    <div class="title">
+                      <h5>
+                        {{block.settings.item_title}}
+                      </h5>
+                    </div>
+                    <div class="small-text">
+                      <p>
+                        {{block.settings.text}}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+           <div class="swiper-scrollbar-wrap">
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Section how use",
+     "settings": [
+        {
+            "type": "text",
+            "id": "name",
+            "label": "name"
+        }
+
+    ],
+    "blocks": [
+     {
+       "name": "item",
+       "type": "item",
+       "settings": [
+             {
+               "type": "image_picker",
+               "id": "img",
+               "label": "Image"
+             },
+             {
+               "type": "text",
+               "id": "item_title",
+               "label": "title"
+             },
+             {
+               "type": "text",
+               "id": "text",
+               "label": "subtitle"
+             }
+           ]
+         }
+    ],
+     "presets": [
+    {
+      "name": "Section how use"
+    }
+  ]
+  }
+{% endschema %}
+

@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "LEDA SWISS AMBASSADOR",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--secondary",
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "3b2491b7-80d7-427e-9a3c-00a5fb8786f8": {
+      "type": "section-double",
+      "blocks": {
+        "template--16123734327470__3b2491b7-80d7-427e-9a3c-00a5fb8786f8-1688055996b2fca761-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "LOYALTY+",
+            "title": "LEDA Swiss Ambassador",
+            "text": "<p><strong>Passionate about your hair and natural, luxury haircare?<\/strong><br\/><br\/>We invite you to discover more about becoming part of our growing community.<\/p><p>Discover more advantages and join our Loyalty Program to enjoy exclusive benefits.<\/p><p>Follow LEDA Swiss on Social Media, tag <strong>@LedaSwiss<\/strong> and use our hashtag <strong>#LedaSwissAmbassador<\/strong><\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16123734327470__3b2491b7-80d7-427e-9a3c-00a5fb8786f8-1688055996b2fca761-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC9222.jpg",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16123734327470__3b2491b7-80d7-427e-9a3c-00a5fb8786f8-1688055996b2fca761-0",
+        "template--16123734327470__3b2491b7-80d7-427e-9a3c-00a5fb8786f8-1688055996b2fca761-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3b2491b7-80d7-427e-9a3c-00a5fb8786f8"
+  ]
+}

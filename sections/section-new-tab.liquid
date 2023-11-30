@@ -1,0 +1,72 @@
+
+<div class="section-new-tabs">
+      <div class="container">
+        <div class="section-new-tabs__wrap">
+          <div class="title">
+            <h3>
+              {{section.settings.title}}
+            </h3>
+          </div>
+          <div class="list-tab">
+            {% for block in section.blocks %}
+              <custom-tab class="custom-tab">
+                <div class="custom-tab__wrap">
+                  <div class="custom-tab-name">
+                    <div class="subtitle-2">
+                      <p>
+                        {{block.settings.tab_name}} 
+                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11 0.652344L5.90883 5.74351L0.41412 1.09075" stroke="#00463F" stroke-width="0.6"/>
+                        </svg>
+
+                      </p>
+                    </div>
+                    <div class="custom-tab-content">
+                      <div class="text-1">
+                        {{ block.settings.text }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </custom-tab>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+</div>
+
+
+{% schema %}
+    {
+      "name": "section-new-tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title"
+        }
+      ],
+      "blocks": [
+        {
+          "name": "tab",
+          "type": "tab",
+          "settings": [
+            {
+                "type": "text",
+                "id": "tab_name",
+                "label": "tab name"
+            },{
+                "type": "richtext",
+                "id": "text",
+                "label": "tab content"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {   
+          "name": "section-new-tab"
+        }
+      ]
+    }
+  {% endschema %}

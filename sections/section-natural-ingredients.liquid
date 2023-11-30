@@ -1,0 +1,149 @@
+{% style %}
+  #shopify-section-{{ section.id }}{
+    margin-top:calc({{section.settings.mt}} / 16 * 1rem);
+  }
+  .section-bezahlen-{{ section.id }}{
+    padding-bottom:{{section.settings.pb}}px;
+    padding-top:{{section.settings.pt}}px;
+    
+  }
+
+  @media (max-width:1100px){
+     #shopify-section-{{ section.id }}{
+      margin-top:0px;
+    }
+  }
+{% endstyle  %}
+
+<div class="section-natural-ingredients">
+      <div class="container">
+        <div class="section-natural-ingredients__wrap">
+          <div class="left">
+            <div class="left__wrap">
+              <div class="subtitle-2">
+                <p>
+                  {{section.settings.name}}
+                </p>
+              </div>
+              <div class="title">
+                <h3>
+                  {{section.settings.title}}
+                </h3>
+              </div>
+              <div class="list-items">
+                {% for block in section.blocks %}
+                  <div class="item">
+                    <div class="item__wrap">
+                      <div class="image">
+                        <img src="{{block.settings.img | img_url: 'master'}}" alt="" width="" height="">
+                      </div>
+                      <div class="small-text">
+                        <p>
+                          {{block.settings.name}}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right__wrap">
+              <div class="image">
+                <div class="image__wrap">
+                  <img src="{{section.settings.img | img_url: 'master'}}" alt="" width="" height="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-natural-ingredients-btn">
+            <a class="new-a-btn" href="{{section.settings.url}}"> {{ section.settings.btn_name}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+{% schema %}
+    {
+      "name": "natural-ingredients",
+     
+      "settings": [
+        {
+          "type": "range",
+          "id": "mt",
+          "min": -50,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "margin-top",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "pt",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "padding-bottom",
+          "default": 0
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "name",
+          "default":"Sie bezahlen nicht für Wasser oder Alkohol in Ihrer Haarpflege."
+        },
+        {
+              "type": "text",
+              "id": "title",
+              "label": "title",
+              "default":"Sondern nur für reichhaltige, sorgsam ausgewählte und wissenschaftlich erprobte Inhaltsstoffe zur Revitalisierung Ihres Haares."
+         },
+         {
+          "type": "image_picker",
+          "id": "img",
+          "label": "image"
+         
+        }, 
+        {
+              "type": "text",
+              "id": "btn_name",
+              "label": "btn name",
+              "default":"Erfahren Sie mehr über unsere Inhaltsstoffe"
+         }, 
+        {
+              "type": "url",
+              "id": "url",
+              "label": "url"
+         }
+      ],
+      "blocks": [
+        {
+          "name": "item",
+          "type": "item",
+          "settings": [
+           {
+              "type": "text",
+              "id": "name",
+              "label": "name",
+              "default":"Sie bezahlen nicht für Wasser oder Alkohol in Ihrer Haarpflege."
+            },
+            {
+              "type": "image_picker",
+              "id": "img",
+              "label": "image"
+             
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {   
+          "name": "natural-ingredients"
+        }
+      ]
+    }
+  {% endschema %}
