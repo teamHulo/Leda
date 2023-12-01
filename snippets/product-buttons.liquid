@@ -89,7 +89,12 @@
   
                   <span class="btn-state-complete">&nbsp;</span>
                 {% else %}
-                   Add to Cart 
+                      {% if upgrade != blank %}
+                        upgrade
+                      {% else %}
+                        Add to Cart 
+                      {% endif %}
+                   
                 {% endif %}
               </button>
 

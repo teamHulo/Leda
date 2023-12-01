@@ -260,6 +260,7 @@
           {%- endfor -%}
         {% endif %}
       </div>
+      
     </div>
     {%- assign cart_products = cart_products | append: line_item.product.id | append: ',' -%}
   {% endfor %}

@@ -886,6 +886,11 @@
         ]
       },
       {
+          "type":"product",
+          "id":"upsell_product",
+          "label":"upsell product"
+      },
+      {
         "type": "text",
         "id": "free_shipping_limit",
         "label": "Minimum spend for free shipping",

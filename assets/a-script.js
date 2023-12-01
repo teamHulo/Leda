@@ -14,6 +14,53 @@
   customElements.define("custom-tab", CustomTab);
 
 $(() => {
+
+  function handleResponse() {
+    let a = this.responseText;
+    let parser = new DOMParser();
+    let objCarts = JSON.parse(this.responseText);
+    console.log(objCarts['cart-drawer']);
+    //$('#cart-icon-bubble').html($(objCarts["cart-icon-bubble"]).html());
+    $('.cart__drawer .drawer__content').html($(objCarts["cart-drawer"]).find('.drawer__content').html());
+  }
+ 
+  $(document).on('click', '.my_add-upgrade', function(e){
+        e.preventDefault();
+
+        let id = $(this).closest('form').find('.first-variant').val();
+          formData = {
+            id: id,
+            quantity: 1,
+          };
+      
+          fetch(window.Shopify.routes.root + "cart/add.js", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+          })
+          .then((response) => {
+            const request = new XMLHttpRequest();
+            request.addEventListener("load", handleResponse);
+            request.open('GET', '?sections=cart-drawer', true);///?sections=cart-drawer,
+            request.send();
+          //  $("cart-drawer")[0].open();
+            return response.json();
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          })
+          .finally(function () {
+            $("cart-drawer").removeClass("is-empty");
+          });
+  });
+}) 
+
+
+
+
+$(() => {
   $('.my_add-btn').click(function(e){
     e.preventDefault();
     console.log(1);
@@ -41,6 +88,7 @@ $(() => {
         });
   });
 });
+
 
 
 

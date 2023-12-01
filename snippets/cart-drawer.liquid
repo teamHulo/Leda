@@ -105,6 +105,67 @@
                      <a class="next-shopping-btn" href="/collections/all"> continue shopping </a>
                   </div>
               </form>
+              <div class="cart_upsell">
+                  {% assign upsell =  settings.upsell_product %}
+                  <div class="cart__upsell-wrap">
+                    <div class="subtitle-1">
+                      <p>
+                        Transform your hair care ritual with the powerful combination of LEDA Duo
+                      </p>
+                    </div>
+                    <div class="upgrade__block">
+                      <div class="upgrade-label">
+                        <div class="upgrade-label-wrap">
+                          <div class="subtitle-2 sublabel">
+                            <p>
+                              Upgrade to Duo Set and Save CHF 16,80
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="upgrade__block-wrap">
+
+                        <div class="image">
+                          <img src="{{ upsell.featured_image | img_url: 'master'}}" alt="" width="" height=""/>
+                        </div>
+                        <div class="content">
+                          <div class="subtitle-1 upsell-product-title">
+                            <p>
+                              {{upsell.title}}
+                            </p>
+                            {% if upsell.metafields.custom.bestseller == true %}
+                              <span class="upgrade-best">
+                                bestseller
+                              </span>
+                            {% endif %}
+                          </div>
+                          <div class="text-1">
+                              <p>The Revitalise Hair Serum (CHF 53.60)</p>
+                              <p>Nourish Hair Cream LEDA Swiss (CHF 50.40)</p>
+                          </div>
+                          <div class="upgrade-btn-wrap">
+                            <div class="upgrade-btn">
+                              {%- form 'product', upsell, id: product_form_id, data-product-form: '', data-product-handle: product.handle -%}
+                                <input type="hidden" class="first-variant" value="{{upsell.first_available_variant.id}}">
+                                <div class="product__groups">
+                                  {% for product in upsell.metafields.custom.product_group.value %}
+                                    <input type="text" name="product-group" value="{{product.id}}">
+                                  {% endfor %}
+                                </div>
+                                <button  type="submit" name="add" class="new-a-btn-upgrade my_add-upgrade"> upgrade </button>
+                              {% endform %}
+                            </div>
+                            <div class="upgrade-price">
+                              <div class="subtitle-2">
+                                <p>{{upsell.price | money}}</p> 
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+              </div>
             </div>
             
            {% comment %} {%- if section.settings.cart_notes_enable -%}
