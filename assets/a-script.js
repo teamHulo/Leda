@@ -18,11 +18,16 @@ $(() => {
   function handleResponse() {
     let a = this.responseText;
     let parser = new DOMParser();
-    let objCarts = JSON.parse(this.responseText);
-    console.log(objCarts['cart-drawer']);
-    //$('#cart-icon-bubble').html($(objCarts["cart-icon-bubble"]).html());
-    $('.cart__drawer .drawer__content').html($(objCarts["cart-drawer"]).find('.drawer__content').html());
-  }
+    const fresh = document.createElement('div');
+    fresh.innerHTML = this.responseText;
+    let container = document.querySelector('.cart__drawer');
+    let cartItems = container.querySelector('.cart__items');
+    // Convert cartItems into a jQuery object
+    let cartItemsRender = fresh.querySelector('.cart__items').innerHTML;
+    
+    // Now you can use the html() function on cartItems
+    cartItems.innerHTML = cartItemsRender;
+}
  
   $(document).on('click', '.my_add-upgrade', function(e){
         e.preventDefault();
@@ -43,7 +48,7 @@ $(() => {
           .then((response) => {
             const request = new XMLHttpRequest();
             request.addEventListener("load", handleResponse);
-            request.open('GET', '?sections=cart-drawer', true);///?sections=cart-drawer,
+            request.open('GET', `${window.theme.routes.root_url}?section_id=api-cart-items`, true); //'?sections=cart-drawer', true);///?sections=cart-drawer,
             request.send();
           //  $("cart-drawer")[0].open();
             return response.json();
@@ -52,7 +57,7 @@ $(() => {
             console.error("Error:", error);
           })
           .finally(function () {
-            $("cart-drawer").removeClass("is-empty");
+           // $("cart-drawer").removeClass("is-empty");
           });
   });
 }) 

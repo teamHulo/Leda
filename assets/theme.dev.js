@@ -11503,7 +11503,6 @@
       updateTotal() {
         if (this.cart && this.cart.total_price != undefined) {
           const price = themeCurrency.formatMoney(this.cart.total_price, theme.moneyFormat);
-          console.log(price);
           this.finalPrice.innerHTML = price;
         }
         if (this.subtotal && this.cart) {
@@ -11537,7 +11536,7 @@
           this.updateTotal();
           return;
         }
-
+        
         window
           .fetch(`${window.theme.routes.root_url}?section_id=api-cart-items`)
           .then(this.handleErrors)
@@ -11546,9 +11545,10 @@
           })
           .then((response) => {
             const fresh = document.createElement('div');
+            
             fresh.innerHTML = response;
             this.items.innerHTML = fresh.querySelector(selectors$6.apiContent).innerHTML;
-
+            
             this.showForm();
             this.initQuantity();
             this.initQuickview();
