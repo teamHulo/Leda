@@ -886,9 +886,9 @@
         ]
       },
       {
-          "type":"product",
-          "id":"upsell_product",
-          "label":"upsell product"
+        "type": "product",
+        "id": "upsell_product",
+        "label": "upsell product"
       },
       {
         "type": "text",
