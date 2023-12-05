@@ -1,4 +1,5 @@
-  class CustomTab extends HTMLElement {
+
+ class CustomTab extends HTMLElement {
     constructor() {
           super();
         
@@ -14,31 +15,91 @@
   customElements.define("custom-tab", CustomTab);
 
 $(() => {
+  function renderUpsellGet () {
+    const request = new XMLHttpRequest();
+    request.addEventListener("load", renderUpsell);
+    request.open('GET', `?sections=cart-drawer`, true); //'?sections=cart-drawer', true);///?sections=cart-drawer,
+    request.send();
+  }
+
+  function renderUpsell(){
+    
+    const fresh = document.createElement('div');
+    let objCarts = JSON.parse(this.responseText);
+    fresh.innerHTML = objCarts["cart-drawer"];
+    
+    let container = document.querySelector('.cart__drawer');
+    let cartUpsell = container.querySelector('.cart__upsell-block');
+    let cartUpsellRender = fresh.querySelector('.cart__upsell-block').innerHTML;
+    let cartTotalPriceRender = fresh.querySelector('[data-cart-final]').innerHTML;
+    let cartPrice = container.querySelector('[data-cart-final]');
+    cartUpsell.innerHTML = cartUpsellRender;
+    cartPrice.innerHTML = cartTotalPriceRender;
+  }
+
 
   function handleResponse() {
-    let a = this.responseText;
-    let parser = new DOMParser();
-    const fresh = document.createElement('div');
-    fresh.innerHTML = this.responseText;
-    let container = document.querySelector('.cart__drawer');
-    let cartItems = container.querySelector('.cart__items');
-    // Convert cartItems into a jQuery object
-    let cartItemsRender = fresh.querySelector('.cart__items').innerHTML;
+      const fresh = document.createElement('div');
+      fresh.innerHTML = this.responseText;
+      let container = document.querySelector('.cart__drawer');
+      let cartItems = container.querySelector('.cart__items');
+      let cartUpsell = container.querySelector('.cart__upsell-block');
+      let cartBottomUpsellRender = container.querySelector('.cart__upsell-block');
+      let cartItemsRender = fresh.querySelector('.cart__items').innerHTML;
+      cartItems.innerHTML = cartItemsRender;
+      renderUpsellGet();
+      
+  }
+  function updateProductGroup(arr){
+    data = { updates: {} };
     
-    // Now you can use the html() function on cartItems
-    cartItems.innerHTML = cartItemsRender;
-}
- 
+    $.each(arr, function(index, value) {
+      $('.cart__items__row').each(function(){
+        let dataID = $(this).attr('data-product-id');
+        if(value == dataID){
+          let lineNumber = $(this).attr('data-line');
+          let lineQuantity = +$(this).attr('data-quantity') - 1;
+          data.updates[lineNumber] = lineQuantity;
+          
+        }
+      });
+
+    });
+    console.error(data);
+    $.ajax({
+      type: 'POST',
+      url: '/cart/update.js',
+      data: data,
+      dataType: 'json',
+      success: function() { 
+        const request = new XMLHttpRequest();
+        request.addEventListener("load", handleResponse);
+        request.open('GET', `${window.theme.routes.root_url}?section_id=api-cart-items`, true); //'?sections=cart-drawer', true);///?sections=cart-drawer,
+        request.send();
+      }
+    });
+  }
+
+
   $(document).on('click', '.my_add-upgrade', function(e){
         e.preventDefault();
+        let productGroup = [];
+        let products = $('.product__groups input');
 
+        products.each(function(){
+          
+          productGroup.push($(this).val()); // Use $(this).val() instead of this.val()
+        });
+
+       
+        
         let id = $(this).closest('form').find('.first-variant').val();
           formData = {
             id: id,
             quantity: 1,
           };
       
-          fetch(window.Shopify.routes.root + "cart/add.js", {
+         fetch(window.Shopify.routes.root + "cart/add.js", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -46,21 +107,102 @@ $(() => {
             body: JSON.stringify(formData),
           })
           .then((response) => {
-            const request = new XMLHttpRequest();
-            request.addEventListener("load", handleResponse);
-            request.open('GET', `${window.theme.routes.root_url}?section_id=api-cart-items`, true); //'?sections=cart-drawer', true);///?sections=cart-drawer,
-            request.send();
-          //  $("cart-drawer")[0].open();
+            updateProductGroup(productGroup);
+          
+          
             return response.json();
           })
           .catch((error) => {
             console.error("Error:", error);
           })
           .finally(function () {
-           // $("cart-drawer").removeClass("is-empty");
+           
           });
   });
-}) 
+  function changeCart() {
+    const fresh = document.createElement('div');
+      fresh.innerHTML = this.responseText;
+      let container = document.querySelector('.cart__drawer');
+      let cartItems = document.querySelector('[data-line-items]');
+      console.error(cartItems);
+      let cartItemsLength = fresh.querySelectorAll('[data-item]').length;
+      console.error(cartItemsLength);
+      let cartItemsRender = fresh.querySelector('[data-api-content]').innerHTML;
+      
+      cartItems.innerHTML = cartItemsRender;
+      if(cartItemsLength == 0){
+        
+        $('[data-cart-empty]').removeClass('cart--hidden');
+        $('[data-cart-form]').addClass('cart--hidden');
+        $('.drawer__bottom').addClass('cart--hidden');
+      }else{
+      
+      }
+    
+    
+  }
+
+  function ajaxChangeCart(id, quantity){
+    window
+    .fetch(`${window.theme.routes.cart}/change.js`, {
+      method: 'post',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        id: id,
+        quantity: quantity,
+      }),
+    })
+    .then(this.handleErrors)
+    .then((response) => {
+      return response.json();
+    })
+    .then((response) => {
+      const request = new XMLHttpRequest();
+      request.addEventListener("load", changeCart);
+      request.open('GET', `${window.theme.routes.root_url}?section_id=api-cart-items`, true); //'?sections=cart-drawer', true);///?sections=cart-drawer,
+      request.send();
+    })
+    .catch((e) => {
+      
+    });
+  }
+
+
+
+
+  $(document).on('click','.my-cart-remove', function(e){
+    e.preventDefault();
+    let lineNumber = $(this).attr('data-remove-key');
+    let lineQuantity = 0;
+    ajaxChangeCart(lineNumber,lineQuantity );
+  });
+
+
+  $(document).on('click','.quantity__button--my-minus', function(){
+    let quantityValue = +$(this).closest('.cart__items__quantity').find('.quantity__my-input').val() - 1;
+    let quantityID = $(this).closest('.cart__items__quantity').find('.quantity__my-input').attr('data-update-cart');
+    console.error(quantityValue, quantityID);
+    ajaxChangeCart(quantityID ,quantityValue);
+
+  });
+  $(document).on('click','.quantity__button--my-plus', function(){
+    let quantityValue = +$(this).closest('.cart__items__quantity').find('.quantity__my-input').val() + 1;
+    let quantityID = $(this).closest('.cart__items__quantity').find('.quantity__my-input').attr('data-update-cart');
+    console.error(quantityValue, quantityID);
+    ajaxChangeCart(quantityID ,quantityValue);
+
+  });
+  $(document).on('change','.quantity__my-input', function(){
+    let quantityValue = +$(this).val();
+    let quantityID = $(this).attr('data-update-cart');
+    console.error(quantityID ,quantityValue);
+    ajaxChangeCart(quantityID ,quantityValue);
+
+  });
+
+
+
+}); 
 
 
 
@@ -68,7 +210,8 @@ $(() => {
 $(() => {
   $('.my_add-btn').click(function(e){
     e.preventDefault();
-    console.log(1);
+   
+    
     let variant = $(this).closest(".product-btn").find(".first-variant").val();
       formData = {
         id: variant,

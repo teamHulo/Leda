@@ -4398,3 +4398,6 @@
 .upsell-product-title.subtitle-1 p{
   text-align: left;
 }
+.product__groups{
+  display:none;
+}

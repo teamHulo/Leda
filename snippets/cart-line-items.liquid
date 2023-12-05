@@ -2,6 +2,7 @@
 
 {%- assign cart_products = '' -%}
  <div class="drawer__top">
+ 
               <div class="drawer__top-wrap">
                 <div class="title">
                     <h3> Your Cart </h3>
@@ -18,13 +19,13 @@
 </div>
 <div class="cart__items">
   {% for line_item in cart.items %}
-    <div class="cart__items__row" data-cart-item>
+    <div class="cart__items__row" data-cart-item data-line="{{line_item.key}}" data-quantity="{{line_item.quantity}}" data-product-id="{{line_item.product.id}}">
       <div class="item--loadbar" data-item-loadbar style="display: none;">&nbsp;</div>
-      <div class="cart__items__grid" data-item>
+      <div class="cart__items__grid" data-item >
         <div class="cart__items__remove">
-          <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0"
+          <a class="my-cart-remove" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0"
             data-remove-key="{{ line_item.key }}"
-            tabindex="0">
+            tabindex="0" >
             <span class="cart__remove__icon" style="display:block; width:24px; height:24px;">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10 18L22 6M10 6L22 18" stroke="#B2C6B6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -105,20 +106,20 @@
         <div class="price-quantity-wrap"> 
           <div class="cart__items__quantity">
             <div class="quantity__wrapper" data-quantity-selector>
-              <button class="quantity__button quantity__button--minus" data-decrease-quantity type="button"><svg width="4" height="2" viewBox="0 0 4 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="quantity__button quantity__button--minus quantity__button--my-minus" data-decrease-quantity type="button"><svg width="4" height="2" viewBox="0 0 4 2" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.203625 1.50826V0.0802575H3.80163V1.50826H0.203625Z" fill="#B2C6B6"/>
 </svg>
 </button>
               <label for="updates_{{ line_item.key }}" class="visually-hidden">{{ 'cart.label.quantity' | t }}</label>
               <input data-quantity-input
                 data-update-cart="{{ line_item.key }}"
-                class="quantity__input"
+                class="quantity__input quantity__my-input"
                 type="number"
                 min="0"
                 id="updates_{{ line_item.key }}"
                 name="updates[]"
                 value="{{ line_item.quantity }}"/>
-              <button class="quantity__button quantity__button--plus" data-increase-quantity type="button"><svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="quantity__button quantity__button--plus quantity__button--my-plus" data-increase-quantity type="button"><svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.462148 4.38226V3.09426H3.79415V0.308258H5.20815V3.09426H8.52615V4.38226H5.20815V7.16826H3.79415V4.38226H0.462148Z" fill="#00463F"/>
 </svg>
 </button>

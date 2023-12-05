@@ -9054,6 +9054,7 @@
             this.input.dispatchEvent(new Event('change'));
           }.bind(this)
         );
+       
         this.decrease.addEventListener(
           'click',
           function (e) {
@@ -11317,6 +11318,7 @@
         this.cartMessages = document.querySelectorAll(selectors$6.cartMessageContainer);
         this.bar = this.container.querySelector(selectors$6.bar);
         this.ship = this.container.querySelector(selectors$6.ship);
+        this.upsell = this.container.querySelector('.cart__upsell-block');
         this.drawer = this.container.querySelector(selectors$6.drawer);
         this.form = this.container.querySelector(selectors$6.form);
         this.loader = this.container.querySelector(selectors$6.loader);
@@ -11429,6 +11431,7 @@
             }.bind(this)
           );
         });
+
       }
 
       initRemove() {
@@ -11445,6 +11448,20 @@
             }.bind(this)
           );
         });
+       /* this.container.addEventListener('click', function (e) {
+            // Проверяем, является ли цель события элементом, который нас интересует
+            if (e.target.closest(`[${selectors$6.remove}]`)) {
+              e.preventDefault();
+              
+              // Получаем ключ
+              const key = e.target.closest(`[${selectors$6.remove}]`).getAttribute(selectors$6.remove);
+              
+              // Выполняем необходимые действия
+              this.latestClick = e.target.closest(selectors$6.item);
+              this.lockState();
+              this.updateCart(key, 0);
+            }
+          }.bind(this));*/
       }
 
       lockState() {
@@ -11468,7 +11485,7 @@
           })
           .then((response) => {
             this.cart = response;
-
+            console.error(response);
             slideUp(this.errors);
             this.fireChange(response);
             this.stale = true;
@@ -11500,10 +11517,30 @@
         );
       }
 
+      
+
+
+
+      updateUpsell() {
+          window
+            .fetch(`${window.theme.routes.root_url}?section_id=cart-drawer`)
+            .then(this.handleErrors)
+            .then((response) => {
+              return response.text();
+            })
+            .then((response) => {
+              const fresh = document.createElement('div');
+              fresh.innerHTML = response;
+              
+              this.upsell.innerHTML = fresh.querySelector('.cart__upsell-block').innerHTML;
+            });
+        
+      }
       updateTotal() {
         if (this.cart && this.cart.total_price != undefined) {
           const price = themeCurrency.formatMoney(this.cart.total_price, theme.moneyFormat);
           this.finalPrice.innerHTML = price;
+          this.updateUpsell();
         }
         if (this.subtotal && this.cart) {
           window
@@ -11515,8 +11552,10 @@
             .then((response) => {
               const fresh = document.createElement('div');
               fresh.innerHTML = response;
+              
               this.subtotal.innerHTML = fresh.querySelector(selectors$6.apiContent).innerHTML;
             });
+            
         }
       }
 
@@ -11727,6 +11766,7 @@
             }.bind(this)
           );
         });
+        
       }
     }
 
