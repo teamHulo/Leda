@@ -130,6 +130,7 @@ $(() => {
       let cartItemsRender = fresh.querySelector('[data-api-content]').innerHTML;
       
       cartItems.innerHTML = cartItemsRender;
+      renderUpsellGet ();
       if(cartItemsLength == 0){
         
         $('[data-cart-empty]').removeClass('cart--hidden');
