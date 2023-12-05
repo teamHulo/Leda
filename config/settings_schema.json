@@ -886,9 +886,27 @@
         ]
       },
       {
+        "type": "text",
+        "id": "upsell_title",
+        "label": "title",
+        "default":"Transform your hair care ritual with the powerful combination of LEDA Duo"
+      },
+      {
+        "type": "text",
+        "id": "upsell_label",
+        "label": "label block",
+        "default":"Upgrade to Duo Set and Save CHF 16,80"
+      },
+      {
         "type": "product",
         "id": "upsell_product",
         "label": "upsell product"
+      },
+      {
+        "type": "richtext",
+        "id": "upsell_description",
+        "label": "upsell product description",
+        "default":"<p>The Revitalise Hair Serum (CHF 53.60)</p><p>Nourish Hair Cream LEDA Swiss (CHF 50.40)</p>"
       },
       {
         "type": "text",
